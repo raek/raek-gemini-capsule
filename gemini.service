@@ -1,0 +1,12 @@
+[Unit]
+Description=raek's Gemini Capsule Server
+
+[Service]
+Type=simple
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=%h/.config/gemini/server/venv/bin/python3 %h/gemini/server.py
+Restart=on-failure
+SyslogIdentifier=gemini
+
+[Install]
+WantedBy=default.target

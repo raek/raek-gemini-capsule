@@ -1,0 +1,158 @@
+# Running CadSoft Eagle Version 6 in Ubuntu GNU/Linux
+
+* Update: Eagle 6.2.0 has been released. The issue remains though and this updated guide still applies.
+* Minor update: Changed instructions to download libpng source code via FTP instead of Git. This results in one less needed tool and a decreased download size.
+* Update: This guide has been revised to work on both 32-bit and 64-bit systems. Previously it only worked on 32-bit systems. Please write a comment if you have any questions or find something that does not work.
+* Update: Eagle 6.1.0 has been released! This guide still applies to both 6.0.0 and 6.1.0, and has been updated with the following change: The string "6.0" has been replaced by "6.1" in the name of the installer and in the installation location. Apart from that everything is the same.
+
+CadSoft recently released version 6 of its PCB layout program Eagle. So, you wanted to use it in Ubuntu? The eagle package in Ubuntu is only version 5.11.0 as of Oneiric, so you downloaded the new version from the official website? You ran the installer and got this error?
+
+=> http://www.cadsoftusa.com/ The CadSoft website
+
+```
+error while loading shared libraries:
+  libpng14.so.14: cannot open shared object file:
+  No such file or directory
+```
+
+It turns out that Eagle needs newer versions of some libraries than are available in the Ubuntu repos. This post will show you how to get hold of these specific version and how set them up with Eagle.
+
+No super user access is needed (besides from installing build tools) in the approach I chose. The special versions of the libraries are only used Eagle and will never cause trouble for any other applications you have installed, because the system directories are never touched.
+
+## Overview
+
+My approach was to download the source for all libraries Eagle needs, compile them (as 32-bit, since that's what Eagle requires), install them in a local directory, and make a small script to launch Eagle. The libraries Eagle needs are:
+
+=> http://www.libpng.org/pub/png/libpng.html libpng 1.4.x (provides `libpng14.so`)
+=> http://www.openssl.org/ OpenSSL 1.0.0 (provides `libssl.so.1.0.0` and `libcrypto.so.1.0.0`)
+=> http://www.ijg.org/ libjpeg v8 (provides `libjpeg.so.8`)
+
+## Preparations
+
+In my setup I put all relevant files the directory /home/raek/.eagle . To follow my steps you need to create your own directory and subsitute its path it for /home/raek/.eagle in all the following steps.
+
+```
+mkdir /home/raek/.eagle
+cd /home/raek/.eagle
+```
+
+I had to install some tools and libraries were needed in the process. This depended on whether I was on my 32-bit or 64-bit machine. In the 32-bit scenario they were:
+
+```
+sudo apt-get install build-essential perl
+sudo apt-get install zlib1g zlib1g-dev
+```
+
+And in the 64-bit they were:
+
+```
+sudo apt-get install build-essential perl gcc-multilib
+sudo apt-get install ia32-libs lib32z1 lib32z1-dev
+```
+
+## Downloading, building, and installing libraries locally
+
+I went about to install a typical library like this:
+
+* Download the source code and unpack it.
+* Configure the library with suitable options.
+* Build the library.
+* Test the library.
+* Install the library.
+* Verify that the expected .so file shows up in /home/raek/.eagle/usr/lib and that is 32-bit.
+
+Of the configure options, the --prefix=/home/raek/.eagle/usr option is important since it tells the build system where to put the files when make install is run. It allowed me to put the result my own usr directory rather than in the system-wide /usr or /usr/local.
+
+The CFLAGS=-m32 option (in its various forms) is also needed to force the libraries to be built in 32-bit form.
+
+I verified that the resulting .so files were in the right place and 32-bit with the file -L command. If it was 32-bit the command came back with "ELF 32-bit", if was 64-bit it came back with "ELF 64-bit", and if the file didn't exist at all it came back with "No such file or directory".
+
+### libpng 1.4.x
+
+I downloaded the libpng14 source code and configured, built, tested, installed and verified it:
+
+```
+wget http://www.sourceforge.net/projects/libpng/files/libpng14/older-releases/1.4.11/libpng-1.4.11.tar.gz
+tar zxf libpng-1.4.11.tar.gz
+cd libpng
+./configure --prefix=/home/raek/.eagle/usr CFLAGS=-m32
+make check
+make install
+cd ..
+file -L usr/lib/libpng14.so
+```
+
+### libssl 1.0.0
+
+The libssl install procedure was very similar, but here the shared option was needed to generate .so files:
+
+```
+wget http://www.openssl.org/source/openssl-1.0.0f.tar.gz
+tar zxf openssl-1.0.0f.tar.gz
+cd openssl-1.0.0f
+./Configure shared --prefix=/home/raek/.eagle/usr linux-generic32 -m32
+make
+make test
+make install
+cd ..
+file -L usr/lib/libssl.so.1.0.0
+file -L usr/lib/libcrypto.so.1.0.0
+```
+
+### libjpeg v8
+
+No surprises here:
+
+```
+wget http://www.ijg.org/files/jpegsrc.v8c.tar.gz
+tar zxf jpegsrc.v8c.tar.gz
+cd jpeg-8c
+./configure --prefix=/home/raek/.eagle/usr CFLAGS=-m32
+make
+make test
+make install
+cd ..
+file -L usr/lib/libjpeg.so.8
+```
+
+## Installing Eagle
+
+I now had all the library files I needed in my /home/raek/.eagle/usr/lib directory and proceeded with downloading and installing Eagle itself. I told the shared library loader to always look for libraries in this directory first by setting the LD_LIBRARY_PATH environment variable in my shell session.
+
+I could then run the Eagle installer and chose to install Eagle in /home/raek/.eagle/eagle-6.2.0 . After that I could start eagle by running the binary found in eagle-6.2.0/bin/eagle.
+
+```
+wget ftp://ftp.cadsoft.de/eagle/program/6.2/eagle-lin-6.2.0.run
+export LD_LIBRARY_PATH=/home/raek/.eagle/usr/lib
+sh eagle-lin-6.2.0.run
+/home/raek/.eagle/eagle-6.2.0/bin/eagle
+```
+
+## Making a Launch Script
+
+Starting eagle worked fine, but I din't want to have to run the export command in a terminal each time I were going to start Eagle. Therefore I made a small script with the following contents:
+
+```
+#!/bin/sh
+export LD_LIBRARY_PATH=/home/raek/.eagle/usr/lib
+/home/raek/.eagle/eagle-6.2.0/bin/eagle
+```
+
+After I wrote the script I made it executable and added a symlink to it in my .bin directory, which I have on my PATH.
+
+```
+nano run_eagle.sh
+chmod a+x run_eagle.sh
+cd /home/raek/.bin
+ln -s /home/raek/.eagle/run_eagle.sh /home/raek/.bin/eagle
+```
+
+I can now start Eagle by just running eagle! If I want to uninstall Eagle some time in the future, all I need to do is to delete /home/raek/.eagle and /home/raek/.bin/eagle and both Eagle and the special version libraries will be gone.
+
+And that's it! Please drop a comment below if this was useful for you (or if if something turned out to not work)!
+
+
+
+-- raek, 2012-01-06
+
+=> gemini://blog.raek.se/ Back to gemlog

@@ -1,0 +1,36 @@
+# New Blog
+
+My blog setup has bothered me for some time. Now I have finally finished the replacement! Previously this blog ran on an outdated version of WordPress. Now its just a bunch of HTML files, generated from Markdown with a few scripts, served statically from Apache.
+
+The main problem with the old blog was the spam. I would get hundreds of moderation requests every day. In the new blog I use Disqus to handle the comments instead. It's a free service that lets you add comments to any page, including static ones! They also support importing from WordPress.
+
+I didn't use the editing features in WordPress much since I usually wrote my posts in Emacs before putting them on the blog. Now that I have no need for the dynamic features anymore, I can replace my blog by a bunch of static HTML files. Which I just did.
+
+By serving static files I have less security issues to worry about. The fewer packages I have to keep up to date the better, and now I can cross PHP, MySQL, and WordPress off the list. Should I want to move the blog to a new server it is easy to do: just copy the files.
+
+This new blog has actually been in the works for quite some time. I started working on it maybe two or three years ago, but I never managed to finish it until now. It is a hack, but it works the way I like it. It's built with
+
+* Markdown files for the post texts
+* JSON files for blog and post meta-data
+* Mustache template files
+* SASS style sheets
+* a few Bash and Python scripts
+* a few command line tools: mustache and jq
+* and a Makefile.
+
+=> https://mustache.github.io/mustache.1.html mustache
+=> http://stedolan.github.io/jq/ jq
+
+Once I have cleaned up the blog code some more, I will wrap it up in a git repository and push it to GitHub. There are a few more changes that I should really make, like adding feeds, but I believe this is good for now. Most importantly, I removed the obstacle that kept me from writing for so long.
+
+Update: The blog code is now available on GitHub
+
+=> https://github.com/raek/blog.raek.se https://github.com/raek/blog.raek.se
+
+Update: This site now has an Atom feed.
+
+
+
+-- raek, 2015-03-15
+
+=> gemini://blog.raek.se/ Back to gemlog

@@ -1,0 +1,25 @@
+# Electromagnetism, integrals and symmetry
+
+The last few weeks I've been doing exercises from "Introduction to Electrodynamics" by David J. Griffiths. The mathematics of electromagnetism is very calculus-heavy and calculus is one of the subjects I struggled a lot with at university. So I have had to backtrack a lot to relearn some calculus, especially integration techniques.
+
+Integration feels more difficult than differentiation to me. Differentiation seems to be very "divide an conquer" in nature. To differentiate a compound expression you differentiate its parts and combine the results. In integration it seems much less obvious to me which rule (or "trick") to apply at which situation. I don't if this is because of the mathematics itself or my inexperience. Maybe which rule to apply can be determined "mechanically", but I don't know how yet. Or maybe it really is "chaotic" in nature and one simply has to get familiar with lots of particular cases by training.
+
+It's not clear to me if integration is "just" differentiation in reverse. The rule of partial integration is clearly derived from the product rule of differentiation, but it is not organized as its mirror image. The "change of variables" rule of integration is similarly related to the chain rule of differentiation, but I often struggle with which substitution to make. The differentiation rule is does not leave as much room for choice, I think.
+
+The exercises I've done so far (the first ones in electrostatics) turned out to be more cleverly thought out than I expected. They built heavily on top of each other and there was a lot of re-use of understanding which I did not spot from the problem texts at first. (I assumed first the problems were mostly unrelated to each other.) It payed off doing them all and in order.
+
+I've learned that the integrals of EM are really complex in the general case, but if symmetry can be used than the complexity can vanish. The point of these kind of exercises seem to be all about finding the symmetry to exploit. The first exercises is to calculate the E-field at (0, 0, z) resulting from two point charges at (±d/2, 0, 0). The takeaway is that the horizontal components cancel for field points where x=0 and only the z component remains. This result is then later reused when considering symmetrically placed line segments and circles. Instead of integrating over all changes separately, one can integrate over pairs of charges, where symmetry will cancel out some of the components.
+
+Being able to confirm that I am on the right track has been very important. Making progress would not have been possible without asking lots of "stupid questions" to a friend who is really good at mathematics (he has a PhD in it). Another invaluable resource is all the videos on YouTube where people work through the problems of this book on camera. Actually, finding these videos helped me deciding which book to buy – I had been looking for a textbook on electromagnetism, but didn't have any reason to pick any particular.
+
+## YouTube Links
+
+=> https://www.youtube.com/playlist?list=PLDDEED00333C1C30E Videos by Jonathan Gardner (Real Physics)
+=> https://www.youtube.com/playlist?list=PLW_rrS5FXW9CR34QmP7RwreteyxtjBPuW Videos by Brandon Berisford
+=> https://www.youtube.com/playlist?list=PLKxxVVdhQNB5VcSXXqWqbjC73lBNt0APG Videos by Hayashi Manabu
+
+
+
+-- raek, 2022-07-21
+
+=> gemini://blog.raek.se/ Back to gemlog

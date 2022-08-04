@@ -1,0 +1,77 @@
+# The re- functions
+
+I recently realized that of the core Clojure regex functions (re-pattern, re-matcher, re-matches, re-groups, re-find, re-seq) I was completely unaware of how re-matcher, re-matches, re-groups were supposed to be used. Their names hint that they are useful for something, but I had never needed to use them. To understand them, I first had to dive into the Javadoc a bit, more specifically the java.util.regex package.
+
+=> http://download.oracle.com/javase/6/docs/api/java/util/regex/package-summary.html Javadoc for java.util.regex
+
+The are two basic concepts in the regex package: the Pattern and the Matcher. A Pattern is what a Clojure regex literal produces and (re-pattern pattern-string) can be used to create one from a string.
+
+```
+user=> (def p (re-pattern "abc|def"))
+#'user/p
+```
+
+A Matcher is a stateful class used to find one or more matching (sub)sequences of a string. A matcher can be created with (re-matcher pattern string) and is initially in a state where the match region is the whole string.
+
+```
+user=> (def m (re-matcher p "defabc"))
+#'user/m
+```
+
+There are two methods for trying to match the region against the pattern: (.find matcher) and (.matches matcher). Here, "matches" should be read as in "it matches" and not "the matches". The methods alter the state of the Matcher in the following way: if the beginning of the region matches the pattern, then true is returned and the the matched substring is stored internally and popped off the beginning of the remaining match region. Otherwise false is returned. The two methods differ in that .find will scan the string for a match but .matches requires the whole remaining region to match.
+
+```
+user=> (.find m)
+true
+```
+
+To extract the matched subsequence (or the matched groups) for the most recent match, re-groups is used. If no groups are present in the patter, the match is returned as a string. If n groups are present in the pattern, a vector of size n+1 is returned, where the first element is the whole match and the rest the matches of the groups. The state of the Matcher remains unchanged.
+
+```
+user=> (re-groups m)
+"def"
+user=> (re-groups m)
+"def"
+user=> (.find m)
+true
+user=> (re-groups m)
+"abc"
+user=> (.find m)
+false
+```
+
+The re-find function is a wrapper for .find that in addition to accept a Matcher as an argument can also take a pattern and a string and create its own Matcher. A call like (re-find pattern string) is equivalent to (let [m (re-matcher pattern string)] (when (.find m) (re-groups m))).
+
+```
+user=> (re-find #"abc|def" "xdefabcy")
+"def"
+```
+
+The re-matches function works just like re-find, except that it uses the .matches method and does not come with a single argument variant (that would take a Matcher).
+
+```
+user=> (re-matches #"abc|def" "def")
+"def"
+user=> (re-matches #"abc|def" "defabc")
+nil
+```
+
+In addition, there's the re-seq function that returns a sequence of all the matches re-find would find. It accepts a pattern and a string as its arguments: (re-seq pattern string).
+
+```
+user=> (re-seq #"abc|def" "xdefabcy")
+("def" "abc")
+```
+
+In the end, four of the functions turn out to be more useful than the others for a Clojure programmer:
+
+* To create a regex pattern from a string, use re-pattern.
+* To match a string completely against a pattern, use re-matches.
+* To find some part of a string that matches a pattern, use re-find.
+* To find all the parts of a string that matches a pattern, use re-seq.
+
+
+
+-- raek, 2011-06-17
+
+=> gemini://blog.raek.se/ Back to gemlog

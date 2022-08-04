@@ -1,0 +1,16 @@
+# raek
+
+=> gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 Electromagnetism, integrals and symmetry
+=> gemini://blog.raek.se/2020/07/24/some-useful-apt-commands/ 2020-07-24 Some useful APT commands
+=> gemini://blog.raek.se/2015/10/17/frog-sounds-qrp-kit-3/ 2015-10-17 Building the Frog Sounds QRP Kit 3: Key Circuitry
+=> gemini://blog.raek.se/2015/09/25/frog-sounds-qrp-kit-2/ 2015-09-25 Building the Frog Sounds QRP Kit 2: Power Supply
+=> gemini://blog.raek.se/2015/09/19/frog-sounds-qrp-kit/ 2015-09-19 Building the Frog Sounds QRP Kit: First Look
+=> gemini://blog.raek.se/2015/03/15/new-blog/ 2015-03-15 New Blog
+=> gemini://blog.raek.se/2012/10/19/haskell-io-in-five-minutes/ 2012-10-19 Haskell I/O in Five Minutes
+=> gemini://blog.raek.se/2012/01/06/running-cadsoft-eagle-version-6-in-ubuntu-gnulinux/ 2012-01-06 Running CadSoft Eagle Version 6 in Ubuntu GNU/Linux
+=> gemini://blog.raek.se/2011/06/17/the-re-functions/ 2011-06-17 The re- functions
+=> gemini://blog.raek.se/2011/04/20/getting-started-with-clojure-development-i-the-repl/ 2011-04-20 Getting Started with Clojure Development I: The REPL
+=> gemini://blog.raek.se/2011/01/24/executors-in-clojure/ 2011-01-24 Executors in Clojure
+=> gemini://blog.raek.se/2009/07/09/moted-ela-volapuk-info/ 2009-07-09 Moted ela Volapuk.info
+=> gemini://blog.raek.se/2009/07/08/my-first-quine/ 2009-07-08 My First Quine
+=> gemini://blog.raek.se/2009/07/06/the-birth-of-volapuk-info/ 2009-07-06 The Birth of Volapuk.info

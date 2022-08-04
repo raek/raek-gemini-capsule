@@ -1,0 +1,78 @@
+# Haskell I/O in Five Minutes
+
+The way you do I/O in Haskell may be radically different from what newcomers are used to, but in fact it follows a few simple rules. Let me try to explain.
+
+For example, you might expect a line of text to pop up in the terminal when you apply putStrLn to "Hello" somewhere in a program. Actually, nothing happens!¹ Instead the expression evaluates to a value which represents the action of printing "Hello". Evaluating the expression does not cause the action to be performed.
+
+I/O actions, such as putStrLn "Hello", are just ordinary values. This means that you can put them in variables, store them in lists, pass them to functions and so on. In other words, I/O actions are first class values.
+
+If you don't perform an action by evaluating it, then how do you go about doing it? The answer is simple: you let it be main:
+
+```
+main :: IO ()
+main = putStrLn "Hello"
+```
+
+When you run the program the Haskell runtime takes the value of main (which must be an I/O action) and performs it. With only this "recipe for I/O" presented so far at hand, it seems like we can only perform one single action.
+
+How do you perform two actions, then? It turns out that there is a way to combine two I/O actions into one action. To understand Haskell code I find it very useful to look at the types, so let's first do that for two useful actions:
+
+```
+putStrLn :: String -> IO ()
+getLine  :: IO String
+```
+
+The first line should be read as "putStrLn is a function that takes a string and returns an action that, when performed, produces ()²". The the second should be read as "getLine is an action that, when performed, produces a string".
+
+The function that combines two actions is called "bind" an is written in Haskell as the infix operator ">>=". It has the following type:
+
+```
+(>>=) :: IO a -> (a -> IO b) -> IO b
+```
+
+Bind takes two arguments (the left and right operands) and returns a compound action. The meaning of this new action is to first perform the action to the left. The left action produces a value of type a. Then the function to the right is applied with this value, which returns a second action. Finally the second action is performed. The value it produces becomes the result of the whole compound action.
+
+With this new ingredient it is possible to define an action that does two things, for example reading and printing:
+
+```
+main :: IO ()
+main = getLine >>= (\line -> putStrLn (reverse line))
+```
+
+This example reads a line from the terminal, reverses it, and prints it back. Finally there is another function which come handy when you compose action. It is called "return" and has the following type:³
+
+```
+return :: a -> IO a
+```
+
+That is, it is a function that takes an a and returns an action that, when performed, produces an a. The action does not actually perform any real I/O and the value it yields is simply the one passed as the argument. Actions from return are often used as the last step of an action sequence to combine intermediate results into a bigger one. For example:
+
+```
+getLinePair :: IO (String, String)
+getLinePair = getLine >>= (\x ->
+                getLine >>= (\y ->
+                  return (x, y)))
+```
+
+The meaning of this action is to read a first line from the terminal and then a second one. The result of the action is a pair of the first and the second line.
+
+And that's it. After this next steps could be to read about the "do notation" or to browse the documentation for the System.IO package. If you enjoyed this tutorial or have any questions, feel free to post a comment below!
+
+=> http://hackage.haskell.org/packages/archive/base/latest/doc/html/System-IO.html System.IO 
+
+Thanks to @kajgo and @ricli85 for proofreading!
+
+## Footnotes
+
+¹This is not true at the top level of the GHCi command-line since it handles I/O actions specially compared to other values.
+
+²This is read as "unit" and means "no useful value".
+
+³In reality, the (>>=) and return functions do actually involve a more general type than IO.
+
+
+
+-- raek, 2012-10-19
+
+=> gemini://blog.raek.se/ Back to gemlog
+

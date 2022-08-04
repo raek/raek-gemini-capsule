@@ -1,0 +1,52 @@
+# Getting Started with Clojure Development I: The REPL
+
+This is the first post of one my ongoing attempt to write a series of blog posts about how to get started with development in Clojure. This post will cover a beginner's first encounter with the Clojure Read Eval Print Loop.
+
+This post assumes a UNIX-like environment. Some details might vary from OS to OS (especially for Windows). In those cases, study the documentation related to your platform for the mentioned applications.
+
+So, you've heard some interesting things about this language called Clojure... Good. When you play around with an interactive programming language (which Clojure is a prime example of) you usually do it though a shell of some sort. In Lisp languages, this shell is traditionally called the REPL, which stands for Read Eval Print Loop.
+
+The question I can almost hear you think is: "How do I install Clojure?" The answer to that question, which is somewhat unusual, is: "You don't." Clojure's approach to language and library versions is similar to Virtualenv of Python or RVM of Ruby. To launch Clojure you use what's usually called a build tool. Since they do more than just build tasks, so you can think of them as "Clojure environment tools". Two of the most common ones are Leiningen and Cake. Here, I will only cover Leiningen, but Cake works nearly identically for basic tasks.
+
+Now, what you do install is Leiningen:
+
+* Download the lein script available from the project page.
+=> https://github.com/technomancy/leiningen/raw/stable/bin/lein The lein script
+=> https://github.com/technomancy/leiningen The Leiningen project page
+* Put the file in a directory where you keep executables. I keep mine in ~/.bin/
+* Make it executable: chmod a+x lein
+* Ensure that directory with executables is on the PATH. I do this by having the following in my ~/.profile file:
+```
+PATH=$PATH:/home/raek/.bin
+export PATH
+```
+* This makes lein available both in applications started from Bash and in Gnome¹; just change the /home/raek/ to your own home directory.
+* Run lein once to let it download the files it needs. The files are placed in ~/.lein and ~/.m2
+* Run lein repl to get a Clojure REPL!
+* Optional: Install rlwrap using the package manager of your OS to get a better REPL experience. Otherwise JLine is used which does not support UTF-8.
+
+With a bare REPL in a terminal you can do much, but the lack of editing and saving abilities can make it tiresome in the long run. I therefore recommend to use an ordinary text editor to write the code and then send the code to the REPL. The simplest way to accomplish this is to simply copy and paste the code, but more sophisticated editors provide more convenient methods (I will shortly show this can done in Emacs).
+
+Restricting oneself to only the REPL has some serious limitations and because of this I don't recommend this approach in general, except for learning (for that it may indeed be very useful) and trivial projects. So far I haven't mentioned how divide code into multiple files, how to use third party libraries or how to specify the version of Clojure to use. For that, you need to set up a Leiningen project. This is the topic for the next (upcoming) part of this blog post series.
+
+In Emacs, you can interact with the REPL by following these steps:
+
+* Install clojure-mode using package.el by following the instructions on the official Getting Started with Emacs wiki page.
+=> http://dev.clojure.org/display/doc/Getting+Started+with+Emacs Getting Started with Emacs
+* Execute M-x customize-variable RET inferior-lisp-program and configure it to use lein repl as the program.
+* Open a .clj file, or run M-x clojure-mode in a buffer (e.g. *scratch*).
+* Press C-c C-z to start the Clojure REPL.
+* Use C-x C-e at the end of an expresison to evaluate it or C-M-x to evaluate the expression spanning between the outermost parentheses surrounding the point.
+
+This is it for now. Happy hacking!
+
+## Footnotes
+
+¹You might need to restart the X server for this change to be effective.
+
+
+
+
+-- raek, 2011-04-20
+
+=> gemini://blog.raek.se/ Back to gemlog

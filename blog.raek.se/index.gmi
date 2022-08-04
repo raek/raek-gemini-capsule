@@ -1,0 +1,62 @@
+# raek's gemlog
+
+Now all my blogposts are available on gemini!
+
+This file follows the gmisub format.
+
+=> feed.gmi List of posts without summaries
+=> https://blog.raek.se/ HTTP version of this blog
+
+## 2022
+
+=> gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 Electromagnetism, integrals and symmetry
+The last few weeks I've been doing exercises from "Introduction to Electrodynamics" by David J. Griffiths. I have had to backtrack a lot to relearn some calculus, especially integration techniques. I ramble on about my experience. 
+
+## 2020
+
+=> gemini://blog.raek.se/2020/07/24/some-useful-apt-commands/ 2020-07-24 Some useful APT commands
+The APT package manager used in the Debian and Ubuntu Linux distros keeps track of installed packages, but also which files they installed. Here are four package management commands I have ended up using regularly.
+
+## 2015
+
+=> gemini://blog.raek.se/2015/10/17/frog-sounds-qrp-kit-3/ 2015-10-17 Building the Frog Sounds QRP Kit 3: Key Circuitry
+When the power supply was done it felt reasonable to continue with the key circuitry. This post describes the key jack with pull up network, the LED indicator circuit, and the NAND gates that function as a buffer and beeper.
+
+=> gemini://blog.raek.se/2015/09/25/frog-sounds-qrp-kit-2/ 2015-09-25 Building the Frog Sounds QRP Kit 2: Power Supply
+The first block I started to solder was the power supply. This post describes how it works and issues I found while building it.
+
+=> gemini://blog.raek.se/2015/09/19/frog-sounds-qrp-kit/ 2015-09-19 Building the Frog Sounds QRP Kit: First Look
+Recently I became interested in amateur radio. Since I started from scratch equipment-wise, I wanted to buy a cheap radio transceiver to start off with. A kit was a perfect match for me since I like to tinker with electronics and there are some really cheap ones out there.
+
+=> gemini://blog.raek.se/2015/03/15/new-blog/ 2015-03-15 New Blog
+My blog setup has bothered me for some time. Now I have finally finished the replacement: a bunch of HTML files, generated from Markdown with a few scripts, served statically from Apache.
+
+## 2012
+
+=> gemini://blog.raek.se/2012/10/19/haskell-io-in-five-minutes/ 2012-10-19 Haskell I/O in Five Minutes
+The way you do I/O in Haskell may be radically different from what newcomers are used to, but in fact it follows a few simple rules.
+
+=> gemini://blog.raek.se/2012/01/06/running-cadsoft-eagle-version-6-in-ubuntu-gnulinux/ 2012-01-06 Running CadSoft Eagle Version 6 in Ubuntu GNU/Linux
+CadSoft recently released version 6 of its PCB layout program Eagle. You want to use it in Ubuntu? Here's how to get it working.
+
+## 2011
+
+=> gemini://blog.raek.se/2011/06/17/the-re-functions/ 2011-06-17 The re- functions
+I recently realized that of the core Clojure regex functions (re-pattern, re-matcher, re-matches, re-groups, re-find, re-seq) I was completely unaware of how re-matcher, re-matches, re-groups were supposed to be used. Their names hint that they are useful for something, but I had never needed to use them. To understand them, I first had to dive into the Javadoc a bit, more specifically the java.util.regex package.
+
+=> gemini://blog.raek.se/2011/04/20/getting-started-with-clojure-development-i-the-repl/ 2011-04-20 Getting Started with Clojure Development I: The REPL
+This is the first post of one my ongoing attempt to write a series of blog posts about how to get started with development in Clojure. This post will cover a beginner's first encounter with the Clojure Read Eval Print Loop.
+
+=> gemini://blog.raek.se/2011/01/24/executors-in-clojure/ 2011-01-24 Executors in Clojure
+Java has a very useful package called java.util.concurrent, which contains classes and interfaces for tasks, task execution tracking, thread-to-thread communication with blocking queues, locks, semaphores, atomic containers and the Executors Framework. This blog post will walk you through the concepts of the Executors Framework as seen from Clojure.
+
+## 2009
+
+=> gemini://blog.raek.se/2009/07/09/moted-ela-volapuk-info/ 2009-07-09 Moted ela Volapuk.info
+How I started working on the Volapuk.info website, written in the Volapük language.
+
+=> gemini://blog.raek.se/2009/07/08/my-first-quine/ 2009-07-08 My First Quine
+A self-reproducing program written in Python 3.
+
+=> gemini://blog.raek.se/2009/07/06/the-birth-of-volapuk-info/ 2009-07-06 The Birth of Volapuk.info
+How I started working on the Volapuk.info website.

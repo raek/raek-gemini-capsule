@@ -1,0 +1,3 @@
+=> gemini://warmedal.se/~antenna/submit?gemini%3A%2F%2Fblog.raek.se%2F/feed.gmi Submit to Antenna
+=> gemini://warmedal.se/~antenna/log Antenna log
+=> gemini://warmedal.se/~antenna/ Antenna

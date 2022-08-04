@@ -1,0 +1,6 @@
+# Nasty Domain Names
+
+=> gemini://räk.se/ räk.se
+=> gemini://xn--rk-via.se/ räk.se (IDNA pre-encoded URL)
+=> gemini://🦐.räk.se/ 🦐.räk.se
+=> gemini://xn--gt9h.xn--rk-via.se/ 🦐.räk.se (IDNA pre-encoded URL)
