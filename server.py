@@ -1,10 +1,12 @@
+from pathlib import Path
+
 from jetforce import GeminiServer, StaticDirectoryApplication
 from jetforce.app.composite import CompositeApplication
 
 
 def static_app(site_hostname):
-    root = "/home/raek/gemini/" + site_hostname
-    return StaticDirectoryApplication(root_directory=root)
+    root = Path.home() / "gemini" / site_hostname
+    return StaticDirectoryApplication(root_directory=str(root))
 
 
 static_sites = [
@@ -22,11 +24,13 @@ for static_site in static_sites:
 app = CompositeApplication(app_map)
 host = "::"  # Seems to work for both IPv4 and IPv6...
 
+config_dir = Path.home() / ".config" / "gemini" / "server"
+
 
 if __name__ == "__main__":
     server = GeminiServer(
         app,
         host=host,
-        certfile="/home/raek/.config/gemini/server/cert.pem",
-        keyfile="/home/raek/.config/gemini/server/privkey.pem")
+        certfile=str(config_dir / "cert.pem"),
+        keyfile=str(config_dir / "privkey.pem"))
     server.run()
