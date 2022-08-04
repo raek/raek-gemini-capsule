@@ -1,0 +1,48 @@
+# Recommended Capsules and Pages
+
+This is a collection of the capsules that I visit frequently or want to recommend to new visitors.
+
+=> misc.gmi I also keep less organized collection of pages I want to be able to find later.
+
+Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, check out these first!
+
+## Discovering Things in Gemini-Space
+
+=> //warmedal.se/~antenna/ ⭐ Antenna: feed aggregator without a crawler, submission based, many posts each day
+=> //gemini.cyberbot.space/smolzine/ ⭐ smolZINE: a small magazine/newsletter, issued twice a month
+=> //tilde.team/~khuxkm/leo/ Low Earth Orbit (LEO): a "linked list" of capsules, good way to start a random walk through gemini-space
+
+
+## Others' Bookmark Collections
+
+=> //warmedal.se/~bjorn/recommendations/ ⭐ ew0k's recommended reading
+=> gemini://tilde.team/~aprilnightk/links.gmi Keith Aprilnight's links catalog
+
+## Interactive Apps
+
+=> //astrobotany.mozz.us/ ⭐ Astrobotany: text based gardening game
+=> //chat.mozz.us/ Gemini Chat: live, unmoderated chat
+
+## Personal Capsules
+
+=> //warmedal.se/~bjorn/ ⭐ ew0k: author of Antenna
+=> //idiomdrottning.org/ Idiomdrottning
+=> //marginalia.nu/ marginalia
+=> //mozz.us/ mozz.us: author of Astrobotany, Gemini Chat and Jetforce
+=> //skyjake.fi/ skyjake: author of Lagrange and Cosmos
+=> //makeworld.space/ makeworld: author of Amfora
+=> //moddedbear.xyz/ moddedBear
+
+## Gemini Software I Use
+
+=> gemini://skyjake.fi/lagrange/ ⭐ Lagrange: beautiful desktop client (by skyjake)
+=> https://github.com/snoe/deedum Deedum: Android client (by snoe)
+=> https://github.com/makeworld–the–better–one/amfora Amfora: terminal UI client (by makeworld)
+=> https://github.com/michael–lazar/jetforce Jetforce: server written in Python (by mozz.us) – used to servce this capsule!
+=> https://portal.mozz.us/ portal.mozz.us: Gemini→HTTPS Proxy (by mozz.us)
+
+## Protocol Documentation
+
+=> //gemini.circumlunar.space/docs/ ⭐ The Gemini spec and more
+=> //gemini.circumlunar.space/docs/companion/subscription.gmi ⭐ Subscribing to Gemini pages –  a very simple and effective feed format
+=> //transjovian.org/page/Titan Titan: file upload extension to Gemini

@@ -1,0 +1,53 @@
+# Miscellaneous Links
+
+This is my collection of "I want to remember this place" links.
+
+=> recommendations.gmi Also see this more curated list of links.
+
+## Uncategorized
+
+=> //geminiquickst.art Gemini Quickstart
+=> //gemini.circumlunar.space/ The official Gemini capsule
+=> //gemi.dev/cgi-bin/wp.cgi Gemipedia: Wikipedia frontend
+=> //egsam.glv.one/ egsam: client test pages
+=> //transjovian.org/ Transjovian: a wiki
+=> //midnight.pub/ The Midnight Pub
+=> //gemlog.blue/ gemlog.blue
+=> //gemi.dev/cgi-bin/chilly.cgi Chilly Weather: Weather service
+=> //gemi.dev/cgi-bin/waffle.cgi NewsWaffle: News reader
+
+## Search Engines, Aggregators, etc
+
+=> //medusae.space/ medusae.space: directory organized by categories (like in the warly web)
+=> //geminispace.info/ geminispace.info: search engine, list of known capsules, statistics
+=> //kennedy.gemi.dev/ Kennedy: search engine
+=> //tlgs.one/ TLGS – "Totally Legit" Gemini Search
+=> //rawtext.club/~sloum/spacewalk.gmi Spacewalk: aggregator
+=> //gemini.circumlunar.space/capcom/ CAPCOM: aggregator
+=> //skyjake.fi/~Cosmos/ Cosmos: aggregator with threaded view
+
+## Personal Capsules
+
+=> //g.0x6d77.org/ g.0x6d77.org
+=> //gemini.cyberbot.space/ kelbot: author of smolZINE
+=> //gem.chiajlingvoj.ynh.fr/ Asterojdo b612 GejaSimio: Esperanto and Toki Pona
+=> //gemini.panda-roux.dev/ panda-roux
+=> //rawtext.club/~swiftmandolin/ swiftmandolin
+=> //gemi.dev/ gemi.dev - author of Kennedy and Gemipedia
+=> //rawtext.club/~epiii2/ epiii2
+=> //ew.srht.site/ ew
+=> //signals.pollux.casa/ signals
+=> //gem.hexandcounter.org/ Hexandcounter
+=> //foo.zone/ foo.zone
+=> //warp.geminispace.club/~freezr/ freezr
+
+## Articles
+
+=> gemini://gemini.circumlunar.space/docs/companion/robots.gmi gemini.circumlunar.space: robots.txt for Gemini
+=> gemini://gemi.dev/gemlog/2022-02-16-use-security.txt.gmi gemi.dev: Why you should add security.txt to your capsule
+=> gemini://gemini.cyberbot.space/terminal/terminaldashboard.gmi kelbot: Terminal Dashboard
+=> gemini://warmedal.se/~bjorn/posts/your-gemini-browser-and-server-are-probably-doing-certificates-wrong.gmi Your Gemini Browser and Server are Probably Doing Certificates Wrong
+=> gemini://anachronauts.club/~sage/log/2021-01-30-why-anachronauts.gmi Why anachronauts.club?
+=> gemini://gemini.marmaladefoo.com/blog/1-Sep-2020_The_Duckling_Proxy.gmi Duckling Proxy 🦆
+=> gemini://moddedbear.xyz/logs/2022-08-03-when-media-was-social.gmi When Media Was Social
+=> gemini://warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi Introducing the Re:log concept

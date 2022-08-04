@@ -4,6 +4,7 @@ Now all my blogposts are available on gemini!
 
 This file follows the gmisub format.
 
+=> gemini://raek.se/ Back to my capsule main page
 => feed.gmi List of posts without summaries
 => https://blog.raek.se/ HTTP version of this blog
 

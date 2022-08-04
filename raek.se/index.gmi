@@ -1,29 +1,31 @@
 # raek's capsule
 
-Hello, geminispace!
+Welcome to my capsule, fellow geminaut! This capsule was launched 2022-07-17.
 
-This is my home page in two senses. This is where I post my stuff, but it is also where I keep links to the pages I visit the most.
+## My Stuff
 
-=> gemini://blog.raek.se/ My gemlog!
-=> gemini://astrobotany.mozz.us/public/3d544e6a26e244c584228b078025b83e My Astrobotany garden
-=> test.gmi Gemini client test page (unicode and emojis in domain names!)
+=> gemini://blog.raek.se/ Gemlog
+This is a gemini version of my blog. Most of the posts were written before I launched my gemini capsule, but have been converted to gemtext for comfortable reading.
+
+=> links/recommendations.gmi Recommended Capsules and Pages
+Gemini space is an interesting place! This is where I keep links to things you should check out.
+
+=> test.gmi Gemini client test page
+Unicode and emojis in domain names! I set up some silly domains so you don't have to.
+
 => https://raek.se/ My old-fashioned HTTP website
+Since you're visiting from gemini, you might not be scared by the unformatted HTML.
 
-## Pages I visit often
+=> gemini://astrobotany.mozz.us/public/3d544e6a26e244c584228b078025b83e Astrobotany garden
+Yeah, I have one too.
 
-=> gemini://astrobotany.mozz.us/app 🪐 Astrobotany - text based gardening game
-=> gemini://warmedal.se/~antenna/ 📡 Antenna - single feed of all news in geminispace
-=> gemini://chat.mozz.us/ Gemini Chat - Live, unmoderated chat
+## Latest Gemlog Posts
 
-## Other Bookmarks
-
-=> gemini://gemini.circumlunar.space/ The Gemini spec and more
-=> gemini://warmedal.se/~bjorn/ ew0k's capsule (active gemlogger, author of Antenna)
-=> gemini://tilde.team/~aprilnightk/links.gmi Keith Aprilnight's collection of interesting gemini links
+=> gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 Electromagnetism, integrals and symmetry
 
 ## Low Earth Orbit (LEO)
 
-An orbit is a circular linked list of gemini capsules (like a webring on the web, but for gemini). LEO is the only orbit I know of.
+An orbit is a circular linked list of gemini capsules (like a webring on the web, but for gemini). LEO is the only orbit I know so far. Please tell me if you find any more!
 
 => gemini://tilde.team/~khuxkm/leo/ About LEO
 => gemini://tilde.team/~khuxkm/leo/next.cgi?gemini%3A%2F%2Fraek.se%2F Next Page
