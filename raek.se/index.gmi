@@ -10,6 +10,9 @@ This is a gemini version of my blog. Most of the posts were written before I lau
 => links/recommendations.gmi Recommended Capsules and Pages
 Gemini space is an interesting place! This is where I keep links to things you should check out.
 
+=> books.gmi Books I've read
+Chronological list starting from 2019 (when I had a reading resurgence).
+
 => test.gmi Gemini client test page
 Unicode and emojis in domain names! I set up some silly domains so you don't have to.
 
