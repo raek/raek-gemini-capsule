@@ -1,0 +1,23 @@
+# raek's work in progress
+
+No indexers allowed here!
+
+```This is not that secret actually...
+[Spoiler]
+```
+
+=> /orbits/omloppsbanan/ Omloppsbanan
+=> /projects/retrograde/ Retrograde
+
+## Orbits
+
+This page is part of the Omloppsbanan and Bookmarkers' Guild orbits.
+
+=> gemini://raek.se/orbits/omloppsbanan/ About Omloppsbanan
+=> gemini://raek.se/orbits/omloppsbanan/next?gemini%3A%2F%2Fraek.se%2Fwip.gmi Next Page
+=> gemini://raek.se/orbits/omloppsbanan/prev?gemini%3A%2F%2Fraek.se%2Fwip.gmi Previous Page
+=> gemini://raek.se/orbits/omloppsbanan/random?gemini%3A%2F%2Fraek.se%2Fwip.gmi Random Page
+
+=> gemini://raek.se/orbits/omloppsbanan/status?gemini%3A%2F%2Fraek.se%2Fwip.gmi Page Status
+=> gemini://raek.se/orbits/omloppsbanan/check?gemini%3A%2F%2Fraek.se%2Fwip.gmi Check Page
+=> gemini://raek.se/orbits/omloppsbanan/list List Pages

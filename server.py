@@ -1,12 +1,20 @@
+import dataclasses
 from pathlib import Path
 
-from jetforce import GeminiServer, StaticDirectoryApplication
-from jetforce.app.composite import CompositeApplication
+from jetforce import GeminiServer, StaticDirectoryApplication, CompositeApplication, Response, Status
+
+import omloppsbanan
 
 
 def static_app(site_hostname):
     root = Path.home() / "gemini" / site_hostname
     return StaticDirectoryApplication(root_directory=str(root))
+
+
+def mount_app(parent_app, path_prefix, child_app):
+    for route_pattern, callback in child_app.routes:
+        new_route_pattern = dataclasses.replace(route_pattern, path=path_prefix + route_pattern.path)
+        parent_app.routes.append((new_route_pattern, callback))
 
 
 static_sites = [
@@ -16,12 +24,15 @@ static_sites = [
     "xn--gt9h.xn--rk-via.se",  # 🦐.räk.se
 ]
 
-app_map = {None: static_app("fallback")}
+apps = {None: static_app("fallback")}
 
 for static_site in static_sites:
-    app_map[static_site] = static_app(static_site)
+    apps[static_site] = static_app(static_site)
 
-app = CompositeApplication(app_map)
+mount_app(apps["raek.se"], "/orbits/omloppsbanan", omloppsbanan.app)
+
+
+app = CompositeApplication(apps)
 host = "::"  # Seems to work for both IPv4 and IPv6...
 
 config_dir = Path.home() / ".config" / "gemini" / "server"

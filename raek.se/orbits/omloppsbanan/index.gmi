@@ -1,0 +1,56 @@
+# Omloppsbanan
+
+```ASCII art logo for Omloppsbanan
+                .              .             +
+                       .
+       +                 ...--------...          .':
+                      .'                '.   .'   .
+                   .'                      '.   -
+      .    *      /                           .'
+                 /                        , _'        *
+                .   O m l o p p s       _ )    .
+         .      |        B A N A N   , +       |     .
+                |                   (          |
+                |               _ +            |
+                '             )                '
+       *         \        ( ' `               /    .     +
+                . \   _ '  `                 /
+              .'    .'                     .'     .
+             .  . '   '.                .'
+             "'          '''--------'''               *
+                                            .
+                     .            +
+                                              .-. .- . -.- ====>
+```
+
+An orbit is a collection of capsules linking to each other in a ring. This is an orbit for capsules authored by Swedish geminauts. The capsule itself does not have to be in Swedish or relate to Sweden at all.
+
+=> random Jump to a random page in the orbit
+
+## How to join Omloppsbanan
+
+For a page to be a member of the orbit it needs to be of MIME type text/gemtext and contain links to these pages:
+
+```
+Required:
+=> gemini://raek.se/orbits/omloppsbanan/ About Omloppsbanan
+=> gemini://raek.se/orbits/omloppsbanan/next?<YOUR URL> Next Page
+=> gemini://raek.se/orbits/omloppsbanan/prev?<YOUR URL> Previous Page
+
+Optional:
+=> gemini://raek.se/orbits/omloppsbanan/random?<YOUR URL> Random Page
+```
+
+The link texts ("Next Page" etc) are merely suggestions and do not need to match these examples. The links can appear anywhere on the page.
+
+=> genlinks Generate the above links automatically for your page URL
+
+With the links in place on you page, simply follow one of the next/previous/random links and Omloppsbanan will discover your page and include it in the orbit.
+
+## Dead Links
+
+The pages in the orbit will be checked from time to time and dead URLs will be pruned from the ring. If you find a dead page you can also trigger an page check manuallt. The page will then be checked in a couple of minutes.
+
+=> check Trigger page check
+
+A page can be added back to the ring by issuing a page check for its URL when it is up again.

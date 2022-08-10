@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /orbits
+Disallow: /projects
+Disallow: /wip.gmi
