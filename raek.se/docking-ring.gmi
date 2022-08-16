@@ -1,0 +1,14 @@
+# Docking Ring for the raek.se Capsule
+
+=> / Welcome to my capsule!
+
+## What is a docking ring?
+
+A docking ring is a dedicated linking page for Gemini orbits ("webrings"). It can be used to keep the number of links down on a capsule's front page, or to add an interesting/alternative/secret door into the capsule. Perhaps you want to specifically reward visitors from an orbit with some extra fine ASCII art? Or some dad jokes? Or perhaps you want to hide the fact that your capsule is in The Orbit for 90's Eurodance Lovers from those who would never understand? You get the idea.
+
+## The Demo Orbit
+
+=> gemini://raek.se/orbits/demo/ About
+=> gemini://raek.se/orbits/demo/next?gemini%3A%2F%2Fraek.se%2Fdocking-ring.gmi Next
+=> gemini://raek.se/orbits/demo/prev?gemini%3A%2F%2Fraek.se%2Fdocking-ring.gmi Previous
+=> gemini://raek.se/orbits/demo/random?gemini%3A%2F%2Fraek.se%2Fdocking-ring.gmi Random

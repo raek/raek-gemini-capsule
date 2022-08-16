@@ -1,2 +1,15 @@
-=> gemini://tilde.team/~khuxkm/leo/ Inspired by LEO – the first orbit...
-=> gemini://warmedal.se/~antenna/about.gmi ...and by Antenna's discovery mechanism
+# Retrograde
+
+A Python library for hosting orbits ("webrings").
+
+=> https://github.com/raek/retrograde/ Source code on GitHub
+=> /orbits/ Orbits hosted using Retrograde in this capsule
+
+## Idea
+
+This project was inspired by Molniya (the library used by LEO, the first orbit) and Antenna (a "reverse feed aggregator"). Its main diffence from Molniya that it does not rely on finding backlinks using a search engine. Instead it accepts URL submissions (like Antenna). This allows URLs to be added and deleted instantly, instead of waiting days for the seatch engine index of backlinks to update.
+
+=> gemini://tilde.team/~khuxkm/leo/ LEO
+=> https://tildegit.org/khuxkm/molniya Molniya Source Code
+=> gemini://warmedal.se/~antenna/about.gmi Antenna
+=> https://notabug.org/tinyrabbit/gemini-antenna Antenna Source COde

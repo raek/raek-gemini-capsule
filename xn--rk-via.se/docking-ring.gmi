@@ -1,0 +1,6 @@
+# Docking Ring for the räk.se Capsule
+
+=> gemini://raek.se/orbits/demo/ About The Demo Orbit
+=> gemini://raek.se/orbits/demo/next?gemini%3A%2F%2Fxn--rk-via.se%2Fdocking-ring.gmi Next Page
+=> gemini://raek.se/orbits/demo/prev?gemini%3A%2F%2Fxn--rk-via.se%2Fdocking-ring.gmi Previous Page
+=> gemini://raek.se/orbits/demo/random?gemini%3A%2F%2Fxn--rk-via.se%2Fdocking-ring.gmi Random Page

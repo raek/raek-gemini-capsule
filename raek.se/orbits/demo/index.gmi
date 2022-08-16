@@ -1,0 +1,13 @@
+# Demo Orbit
+
+This is a demo orbit for playing around with Retrograde.
+
+## How to join
+
+Feed the URL of your page to this interactive dashboard and follow the instructions.
+
+=> dashboard Dashboard
+=> list List member URLs
+=> random Random page
+
+=> gemini://raek.se/projects/retrograde/ About Retrograde

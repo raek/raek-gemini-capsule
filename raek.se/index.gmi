@@ -5,10 +5,13 @@ Welcome to my capsule, fellow geminaut! This capsule was launched 2022-07-17.
 ## My Stuff
 
 => gemini://blog.raek.se/ Gemlog
-This is a gemini version of my blog. Most of the posts were written before I launched my gemini capsule, but have been converted to gemtext for comfortable reading.
+This is a Gemini version of my blog. Most of the posts were written before I launched my Gemini capsule, but have been converted to gemtext for comfortable reading.
 
 => links/recommendations.gmi Recommended Capsules and Pages
 Gemini space is an interesting place! This is where I keep links to things you should check out.
+
+=> projects/retrograde/ Retrograde
+A Python library for hosting orbits ("webrings").
 
 => books.gmi Books I've read
 Chronological list starting from 2019 (when I had a reading resurgence).
@@ -17,7 +20,7 @@ Chronological list starting from 2019 (when I had a reading resurgence).
 Unicode and emojis in domain names! I set up some silly domains so you don't have to.
 
 => https://raek.se/ My old-fashioned HTTP website
-Since you're visiting from gemini, you might not be scared by the unformatted HTML.
+Since you're visiting from Gemini, you might not be scared by the unformatted HTML.
 
 => gemini://astrobotany.mozz.us/public/3d544e6a26e244c584228b078025b83e Astrobotany garden
 Yeah, I have one too.
@@ -26,9 +29,22 @@ Yeah, I have one too.
 
 => gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 Electromagnetism, integrals and symmetry
 
-## Low Earth Orbit (LEO)
+## Orbits
 
-An orbit is a circular linked list of gemini capsules (like a webring on the web, but for gemini). LEO is the only orbit I know so far. Please tell me if you find any more!
+An orbit is a ring of Gemini pages linking to each other (like a webring on the web, but for Gemini).
+
+### Omloppsbanan
+
+An orbit of capsules by Swedish geminauts.
+
+=> gemini://raek.se/orbits/omloppsbanan/ About Omloppsbanan
+=> gemini://raek.se/orbits/omloppsbanan/next?gemini%3A%2F%2Fraek.se%2F Next Page
+=> gemini://raek.se/orbits/omloppsbanan/prev?gemini%3A%2F%2Fraek.se%2F Previous Page
+=> gemini://raek.se/orbits/omloppsbanan/random?gemini%3A%2F%2Fraek.se%2F Random Page
+
+### Low Earth Orbit (LEO)
+
+The first orbit!
 
 => gemini://tilde.team/~khuxkm/leo/ About LEO
 => gemini://tilde.team/~khuxkm/leo/next.cgi?gemini%3A%2F%2Fraek.se%2F Next Page

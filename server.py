@@ -3,18 +3,12 @@ from pathlib import Path
 
 from jetforce import GeminiServer, StaticDirectoryApplication, CompositeApplication, Response, Status
 
-import omloppsbanan
+from retrograde.jetforce import install_orbit_routes
 
 
 def static_app(site_hostname):
     root = Path.home() / "gemini" / site_hostname
     return StaticDirectoryApplication(root_directory=str(root))
-
-
-def mount_app(parent_app, path_prefix, child_app):
-    for route_pattern, callback in child_app.routes:
-        new_route_pattern = dataclasses.replace(route_pattern, path=path_prefix + route_pattern.path)
-        parent_app.routes.append((new_route_pattern, callback))
 
 
 static_sites = [
@@ -29,7 +23,8 @@ apps = {None: static_app("fallback")}
 for static_site in static_sites:
     apps[static_site] = static_app(static_site)
 
-mount_app(apps["raek.se"], "/orbits/omloppsbanan", omloppsbanan.app)
+install_orbit_routes(apps["raek.se"], "demo", "/orbits/demo")
+install_orbit_routes(apps["raek.se"], "omloppsbanan", "/orbits/omloppsbanan")
 
 
 app = CompositeApplication(apps)

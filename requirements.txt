@@ -1,1 +1,3 @@
-jetforce
+gemurl >=1.0.0
+jetforce >=0.9.1
+retrograde >=0.9.0
