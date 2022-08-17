@@ -2,8 +2,9 @@
 
 A Python library for hosting orbits ("webrings").
 
-=> https://github.com/raek/retrograde/ Source code on GitHub
 => /orbits/ Orbits hosted using Retrograde in this capsule
+=> gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ Announcement of Retrograde and the Omloppsbanan Orbit
+=> https://github.com/raek/retrograde/ Source code on GitHub
 
 ## Idea
 

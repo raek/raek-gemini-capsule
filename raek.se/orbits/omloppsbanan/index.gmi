@@ -23,22 +23,24 @@
                                               .-. .- . -.- ====>
 ```
 
-An orbit is a collection of capsules linking to each other in a ring. This is a local orbit for capsules authored by Swedish geminauts (Hej på dig!). The capsule is not required to be in Swedish or relate to Sweden at all.
+Hejsan! An orbit is a collection of capsules linking to each other in a ring. This is a local orbit for capsules (on any topic) authored by Swedish geminauts.
 
-=> random Jump to a random page in the orbit
-=> list List all pages in the orbit
+=> random Jump to a random page in the orbit!
+=> list Full list of pages included in the orbit
 
-## How to join Omloppsbanan
+## How to join
 
-Put the URL of your page to this interactive dashboard and follow the instructions:
+You need to add a few links to your page. I made an interactive help page that generates example gemtext that you can paste to your page:
 
 => dashboard Dashboard
 
-Found a dead link in the ring? Use the dashboard to submit the page for re-checking.
+Found a dead link in the ring? You can also use the dashboard to tell Omloppsbanan that it should probably skip that page.
 
-## Retrograde
+## Code
 
-=> gemini://raek.se/projects/retrograde/ This orbit is powered by Retrograde.
+If you want to host something like this youself, you can!
+
+=> gemini://raek.se/projects/retrograde/ This orbit hosted using Retrograde.
 
 ## Colophon
 
