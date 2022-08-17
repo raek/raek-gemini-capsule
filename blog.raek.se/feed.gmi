@@ -1,5 +1,6 @@
 # raek
 
+=> gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ 2022-08-17 Launch of Omloppsbanan, an Orbit for Swedish Geminauts
 => gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 Electromagnetism, integrals and symmetry
 => gemini://blog.raek.se/2020/07/24/some-useful-apt-commands/ 2020-07-24 Some useful APT commands
 => gemini://blog.raek.se/2015/10/17/frog-sounds-qrp-kit-3/ 2015-10-17 Building the Frog Sounds QRP Kit 3: Key Circuitry

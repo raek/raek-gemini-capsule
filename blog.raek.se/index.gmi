@@ -10,6 +10,9 @@ This file follows the gmisub format.
 
 ## 2022
 
+=> gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ 2022-08-17 Launch of Omloppsbanan, an Orbit for Swedish Geminauts
+I've hosted a Gemini capsule for a month now. I'd like to add something to my capsule that is not just static text, so I decided to make an orbit. An orbit is a bunch of Gemini capsules linking to each other in a ring.
+
 => gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 Electromagnetism, integrals and symmetry
 The last few weeks I've been doing exercises from "Introduction to Electrodynamics" by David J. Griffiths. I have had to backtrack a lot to relearn some calculus, especially integration techniques. I ramble on about my experience. 
 
