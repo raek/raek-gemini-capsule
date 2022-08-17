@@ -41,6 +41,7 @@ This is my collection of "I want to remember this place" links.
 => //foo.zone/ foo.zone
 => //warp.geminispace.club/~freezr/ freezr
 => //retrace.club/~mycorrhiza/ mycorrhiza
+=> //sysrq.in CyberTailor
 
 ## Articles
 
@@ -52,3 +53,4 @@ This is my collection of "I want to remember this place" links.
 => gemini://gemini.marmaladefoo.com/blog/1-Sep-2020_The_Duckling_Proxy.gmi Duckling Proxy 🦆
 => gemini://moddedbear.xyz/logs/2022-08-03-when-media-was-social.gmi When Media Was Social
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi Introducing the Re:log concept
+=> gemini://siiky.srht.site/meta/reclog.gmi Reclog

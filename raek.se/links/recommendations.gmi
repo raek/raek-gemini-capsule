@@ -28,7 +28,7 @@ Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, 
 => //warmedal.se/~bjorn/ ⭐ ew0k: author of Antenna
 => //idiomdrottning.org/ Idiomdrottning
 => //marginalia.nu/ marginalia
-=> //mozz.us/ mozz.us: author of Astrobotany, Gemini Chat and Jetforce
+=> //mozz.us/ mozz: author of Astrobotany, Gemini Chat and Jetforce
 => //skyjake.fi/ skyjake: author of Lagrange and Cosmos
 => //makeworld.space/ makeworld: author of Amfora
 => //moddedbear.xyz/ moddedBear
@@ -37,12 +37,14 @@ Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, 
 
 => gemini://skyjake.fi/lagrange/ ⭐ Lagrange: beautiful desktop client (by skyjake)
 => https://github.com/snoe/deedum Deedum: Android client (by snoe)
+=> https://skyjake.github.io/fdroid/repo/ Lagrange: pre-release Android client (by skyjake)
 => https://github.com/makeworld–the–better–one/amfora Amfora: terminal UI client (by makeworld)
-=> https://github.com/michael–lazar/jetforce Jetforce: server written in Python (by mozz.us) – used to servce this capsule!
-=> https://portal.mozz.us/ portal.mozz.us: Gemini→HTTPS Proxy (by mozz.us)
+=> https://github.com/michael–lazar/jetforce Jetforce: server written in Python (by mozz) – used to servce this capsule!
+=> https://portal.mozz.us/ portal.mozz.us: Gemini→HTTPS Proxy (by mozz)
 
 ## Protocol Documentation
 
 => //gemini.circumlunar.space/docs/ ⭐ The Gemini spec and more
 => //gemini.circumlunar.space/docs/companion/subscription.gmi ⭐ Subscribing to Gemini pages –  a very simple and effective feed format
+=> //spartan.mozz.us/ Spartan: another protocol similar to Gemini
 => //transjovian.org/page/Titan Titan: file upload extension to Gemini
