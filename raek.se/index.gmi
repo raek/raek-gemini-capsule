@@ -27,9 +27,6 @@ Unicode and emojis in domain names! I set up some silly domains so you don't hav
 => https://raek.se/ My old-fashioned HTTP website
 Since you're visiting from Gemini, you might not be scared by the unformatted HTML.
 
-=> gemini://astrobotany.mozz.us/public/3d544e6a26e244c584228b078025b83e Astrobotany garden
-Yeah, I have one too.
-
 ## Latest Posts
 
 => gemlog/2022-09-06-on-my-mind.gmi 2022-09-06 (gemlog) On my mind
