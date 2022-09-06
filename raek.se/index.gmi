@@ -6,7 +6,10 @@ Everything on this capsule (raek.se) is Gemini exclusive. Stuff that are also av
 
 ## My Stuff
 
-=> gemini://blog.raek.se/ Blog
+=> gemlog/ Gemlog - Gemini exclusive!
+Here I write shorter texts. More personal. Less sensical.
+
+=> gemini://blog.raek.se/ Blog - also on HTTPs
 My blog is served on both Gemini and HTTPS. Most of the posts were written before I launched my Gemini capsule, but have been converted to gemtext for comfortable reading.
 
 => links/recommendations.gmi Recommended Capsules and Pages
@@ -27,10 +30,11 @@ Since you're visiting from Gemini, you might not be scared by the unformatted HT
 => gemini://astrobotany.mozz.us/public/3d544e6a26e244c584228b078025b83e Astrobotany garden
 Yeah, I have one too.
 
-## Latest Gemlog Posts
+## Latest Posts
 
-=> gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ 2022-08-17 Launch of Omloppsbanan, an Orbit for Swedish Geminauts
-=> gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 Electromagnetism, integrals and symmetry
+=> gemlog/2022-09-06-on-my-mind.gmi 2022-09-06 (gemlog) On my mind
+=> gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ 2022-08-17 (blog) Launch of Omloppsbanan, an Orbit for Swedish Geminauts
+=> gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 (blog) Electromagnetism, integrals and symmetry
 
 ## Orbits
 

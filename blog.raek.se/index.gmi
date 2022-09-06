@@ -3,6 +3,7 @@
 All pages in this capsule (blog.raek.se) are also served on HTTPS. This file follows the gmisub format.
 
 => gemini://raek.se/ Back to my personal capsule main page (raek.se)
+=> gemini://raek.se/ Gemlog - My other Gemini-exclusive log
 => feed.gmi List of posts without summaries (feed)
 => https://blog.raek.se/ HTTP version of this blog
 

@@ -1,0 +1,9 @@
+# raek's Gemlog
+
+This is my Gemini-exclusive log.
+
+=> gemini://blog.raek.se/ I also have a separate blog that is additionally served on HTTPS
+
+## Posts
+
+=> 2022-09-06-on-my-mind.gmi 2022-09-06 On my mind

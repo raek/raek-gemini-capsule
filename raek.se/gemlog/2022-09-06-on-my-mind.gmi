@@ -1,0 +1,18 @@
+# On my mind
+
+I've seen some other people make lists of what they are into right now. Great idea! This is what has been on my mind lately, in no particular order:
+
+* Time and astronomy - how calendars relate to what the sun and the moon looks like from earth.
+* Protobuf - a library by Google for (de)serializing structured data into streams of bytes. The "varint" idea looks the same as "VLQ" in MIDI.
+* Music - the choire at my church recently started rehearsing again after the summer break. Bass clef. New songs. Fun!
+* Todo lists and taking notes - listened to the Swedish podcast Kodsnack ("code chat", not "cod snack") about todo lists, Zettelkasten and all those kind of things.
+* Quantum Mechanics - I started reading David Tong's excellent lecture notes. I've read his lecture notes about particle physics before.
+* TikZ - A graphics lagnuage for (La)TeX. VERY powerful. I barely scratched the surface and I know that this language "fits my brain". You write code that turn into pretty diagrams.
+
+That's it for now. Thanks for reading!
+
+
+
+-- raek, 2022-09-06
+
+=> ./ Back to gemlog
