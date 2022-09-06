@@ -15,6 +15,7 @@ This is my collection of "I want to remember this place" links.
 => //gemlog.blue/ gemlog.blue
 => //gemi.dev/cgi-bin/chilly.cgi Chilly Weather: Weather service
 => //gemi.dev/cgi-bin/waffle.cgi NewsWaffle: News reader
+=> //auragem.space/~ask/ AuraGem Ask: Question and answer service
 
 ## Search Engines, Aggregators, etc
 
@@ -42,6 +43,9 @@ This is my collection of "I want to remember this place" links.
 => //warp.geminispace.club/~freezr/ freezr
 => //retrace.club/~mycorrhiza/ mycorrhiza
 => //sysrq.in CyberTailor
+=> //gluonspace.com/ gluon
+=> //tilde.team/~tomasino/ tomasino
+=> //ibannieto.info/ ibannieto
 
 ## Articles
 
@@ -54,3 +58,4 @@ This is my collection of "I want to remember this place" links.
 => gemini://moddedbear.xyz/logs/2022-08-03-when-media-was-social.gmi When Media Was Social
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi Introducing the Re:log concept
 => gemini://siiky.srht.site/meta/reclog.gmi Reclog
+=> gemini://gemini.thebackupbox.net/~epoch/ascii-art/banana A banana
