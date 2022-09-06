@@ -58,4 +58,4 @@ Next time I will either continue with the RF oscillator/mixer or the audio ampli
 
 -- raek, 2015-10-17
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

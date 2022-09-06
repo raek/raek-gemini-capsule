@@ -2,10 +2,12 @@
 
 Welcome to my capsule, fellow geminaut! This capsule was launched 2022-07-17.
 
+Everything on this capsule (raek.se) is Gemini exclusive. Stuff that are also available via HTTPS are served on other subdomains (for example, blog.raek.se).
+
 ## My Stuff
 
-=> gemini://blog.raek.se/ Gemlog
-This is a Gemini version of my blog. Most of the posts were written before I launched my Gemini capsule, but have been converted to gemtext for comfortable reading.
+=> gemini://blog.raek.se/ Blog
+My blog is served on both Gemini and HTTPS. Most of the posts were written before I launched my Gemini capsule, but have been converted to gemtext for comfortable reading.
 
 => links/recommendations.gmi Recommended Capsules and Pages
 Gemini space is an interesting place! This is where I keep links to things you should check out.

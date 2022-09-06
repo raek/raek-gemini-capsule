@@ -88,4 +88,4 @@ The source directory can be deleted at this point. Once the files are installed 
 
 -- raek, 2020-07-24
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

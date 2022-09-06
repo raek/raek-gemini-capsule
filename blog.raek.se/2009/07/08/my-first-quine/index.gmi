@@ -16,4 +16,4 @@ print("".join(map(lambda x: chr(x), program_part)), end="")
 
 -- raek, 2009-07-08
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

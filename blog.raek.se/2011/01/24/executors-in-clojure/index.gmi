@@ -174,4 +174,4 @@ future provides a fairly simple standard solution for starting off some piece of
 
 -- raek, 2011-01-24
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

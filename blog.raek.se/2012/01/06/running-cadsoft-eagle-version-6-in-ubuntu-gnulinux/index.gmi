@@ -155,4 +155,4 @@ And that's it! Please drop a comment below if this was useful for you (or if if 
 
 -- raek, 2012-01-06
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

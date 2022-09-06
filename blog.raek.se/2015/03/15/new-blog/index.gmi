@@ -33,4 +33,4 @@ Update: This site now has an Atom feed.
 
 -- raek, 2015-03-15
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

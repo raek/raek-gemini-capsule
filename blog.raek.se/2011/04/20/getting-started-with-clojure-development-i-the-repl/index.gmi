@@ -49,4 +49,4 @@ This is it for now. Happy hacking!
 
 -- raek, 2011-04-20
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

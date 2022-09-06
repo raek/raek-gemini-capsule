@@ -1,10 +1,8 @@
-# raek's gemlog
+# raek's Blog
 
-Now all my blogposts are available on gemini!
+All pages in this capsule (blog.raek.se) are also served on HTTPS. This file follows the gmisub format.
 
-This file follows the gmisub format.
-
-=> gemini://raek.se/ Back to my capsule main page
+=> gemini://raek.se/ Back to my personal capsule main page (raek.se)
 => feed.gmi List of posts without summaries (feed)
 => https://blog.raek.se/ HTTP version of this blog
 

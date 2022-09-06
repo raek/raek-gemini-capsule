@@ -49,4 +49,4 @@ Please post a comment if you like this and if you would to see some more post ab
 
 -- raek, 2015-09-19
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

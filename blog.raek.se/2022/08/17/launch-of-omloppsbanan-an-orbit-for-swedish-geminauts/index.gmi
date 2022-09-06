@@ -37,4 +37,4 @@ While working on Retrograde, I also released a small Python library called gemur
 
 -- raek, 2022-08-17
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

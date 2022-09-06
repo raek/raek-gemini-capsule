@@ -74,4 +74,4 @@ In the end, four of the functions turn out to be more useful than the others for
 
 -- raek, 2011-06-17
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

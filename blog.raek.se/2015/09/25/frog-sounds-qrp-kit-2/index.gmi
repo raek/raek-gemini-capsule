@@ -40,4 +40,4 @@ That's it for now. If you find any inaccuracies in this post, please let me know
 
 -- raek, 2015-09-25
 
-=> gemini://blog.raek.se/ Back to gemlog
+=> gemini://blog.raek.se/ Back to blog

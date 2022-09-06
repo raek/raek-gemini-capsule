@@ -74,5 +74,4 @@ Thanks to @kajgo and @ricli85 for proofreading!
 
 -- raek, 2012-10-19
 
-=> gemini://blog.raek.se/ Back to gemlog
-
+=> gemini://blog.raek.se/ Back to blog
