@@ -1,0 +1,42 @@
+# Python and Debian Packages
+
+I have used Debian-based GNU/Linux distros daily on my own computers for about a decade and a half. I find Debian packages very neat to use. I've written about some of the useful features before on my blog:
+
+=> //blog.raek.se/2020/07/24/some-useful-apt-commands/ Blog: Some useful APT commands
+
+Debian packages are my preferred way of installing apps. I also write a lot of Python code both at work and on my spare time. I really like how easy it is to write installable command line utilities. (I should write about that some day.)
+
+Building Python packages has changed a lot over the years. I most often use some half old-fashioned half modern approach: I use the classic setuptools build tool, but use the "new" setup.cfg format. This works even in pretty old environments, for example Ubuntu 18.04 which has Python 3.6.
+
+Python packages solve a lot of problems:
+
+* Modules are installed in "the right place". No manual fiddling with sys.path!
+* "console scripts" entry points provide a platform independent way of putting executables on the user's PATH.
+* It's possible to include data files in the package. No need for __file__ path hacks!
+* Dependencies are installed automatically. Super easy to use other people's libraries! No need for "put this library in this special location" instructions to your users.
+
+There are, however, some things the Python packaging system does not do:
+
+* Packages for other things than Python modules, for example native libraries.
+* Installing files to abritrary places in the filesystem.
+
+The last one becomes a problem if you want to ship a systemd unit file with your application (as I often want to do). They need to be installed in a location where systemd will look for them.
+
+I have known for a long time that I should just learn how to make Debian packages. I know that there exists documented conventions for packaging Python code in Debian. I just haven't taken the time to learn how to yet.
+
+This evening I took a step on the way. I discovered the "stdeb" Python package, which hooks into setuptools and makes it possible to build debian packages from Python packages. A Python package already contains almost all metadata needed for a Debian package, so the process is automatable. At least to get something working, but perhaps not perfect. It turned out to be very easy:
+
+```
+sudo apt install python3-stdeb dh-helper
+cd my-python-project
+python3 setup.py --command-packages=stdeb.command bdist_deb
+sudo dpkg -i dist/python3-my-python-project_1.2.3_all.deb
+```
+
+I know that stdeb is a bit of a dead end for me. My goal was after all to go beyond what a standard Python package can do anyway. What I probably need to do is to learn to use the Debian tools properly instead. Do anyone of you have any experience with making Debian packages? Please get in touch (my contact info is in this capsule's root) or write a response here on Gemini!
+
+
+
+--- raek, 2022-09-14
+
+=> ./ Back to gemlog

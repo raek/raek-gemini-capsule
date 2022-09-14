@@ -6,4 +6,5 @@ This is my Gemini-exclusive log.
 
 ## Posts
 
+=> 2022-09-14-python-and-debian-packages.gmi 2022-09-14 Python and Debian Packages
 => 2022-09-06-on-my-mind.gmi 2022-09-06 On my mind
