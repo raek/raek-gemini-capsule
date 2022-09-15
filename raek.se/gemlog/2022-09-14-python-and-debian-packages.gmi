@@ -27,7 +27,7 @@ I have known for a long time that I should just learn how to make Debian package
 This evening I took a step on the way. I discovered the "stdeb" Python package, which hooks into setuptools and makes it possible to build debian packages from Python packages. A Python package already contains almost all metadata needed for a Debian package, so the process is automatable. At least to get something working, but perhaps not perfect. It turned out to be very easy:
 
 ```
-sudo apt install python3-stdeb dh-helper
+sudo apt install python3-stdeb dh-python
 cd my-python-project
 python3 setup.py --command-packages=stdeb.command bdist_deb
 sudo dpkg -i dist/python3-my-python-project_1.2.3_all.deb
