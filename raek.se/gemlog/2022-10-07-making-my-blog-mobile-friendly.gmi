@@ -1,0 +1,53 @@
+# Making my Blog Mobile-Friendly
+
+In 2015 I remade my blog to consist of static HTML and CSS files. I made the body of the page a single column of fixed width. (I chose the width to get the same line lengths as books and articles.) The margins to the left and right were set to fill out all the extra space, resuling in a centered column. My hope was that this would automatically make my blog look good in mobile browsers. Instead I found that the page seemed to be rendered with very wide margins, and that the page was then zoomed-out so that the whole width was visible, which in turn resulted in the text being too small to read.
+
+Now I finally figured out why the page had such wide margins. It turns out mobile browsers default to pretend to be a desktop browser with a viewport width of something like 980px. There is a way to tell the browser to use its natural viewport sized instead, namely a meta tag:
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+After I added that the wide margins disappearded! I needed to tweak some more things though.
+
+At this point I also learned that in CSS, the "pixel" unit is not the same as the size of a physical pixel on the device's display. Instead it is defined using an angle in the field of vision. That makes sense. Different displays have different pixel densities and different displays are meant to be view from different distances. The angle is what matters is in the end for perception. So advice such as "use 16px as a base font size" works independenlty of devices.
+
+Next I found out that the developer tools (F12) in Firefox allows you to look what the page will look like on a mobile device! This was very useful. It also allows you to drag the right side of the viewport to change the width interactively. I used this to tweak my CSS to look good at wide range of widths.
+
+For my blog, I ended up slightly different styles for viewports wider and narrower than 510px. For the wide case I let the central column be of fixed with and filled out the rest of the horizontal space with margins. For the narrow case (510px and less) I let the central column be 100% wide, but I also decreased the font size from 16px to 14px. I used my own phone (a Fairphone 3 which reports a viewport of 414x699) to "calibrate" the font size so that I would get about the same number of words per line on the phone as on wide screens. The CSS for this aspect ended up like this:
+
+```
+body {
+  margin: 0 auto;
+  padding: 0 1em;
+  width: 30em;
+  text-align: justify;
+  font-family: "Georgia", "DejaVu Serif", serif;
+  font-size: 16px;
+  line-height: 1.35em;
+  color: 0x000000;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width:510px) {
+  body {
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+```
+
+I would like to thank Christopher Heng who wrote a great article that explained these things at just the right level for me. You don't see that many websites relevant for hand-written mostly-text HTML these days.
+
+=> https://www.thesitewizard.com/css/mobile-friendly-responsive-design.shtml How to Make a Mobile-Friendly Website: Responsive Design in CSS
+
+Last, but not least, here is a link to my blog (not to be confused with my gemlog, which you are reading now):
+
+=> https://blog.raek.se/ raek's blog
+
+
+
+--- raek, 2022-10-07
+
+=> ./ Back to gemlog
