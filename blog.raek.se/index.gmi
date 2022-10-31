@@ -9,6 +9,9 @@ All pages in this capsule (blog.raek.se) are also served on HTTPS. This file fol
 
 ## 2022
 
+=> gemini://blog.raek.se/2022/10/31/os-integration-files-in-python-packages/ 2022-10-31 OS Integration Files in Python Packages
+My go-to method for deploying command line tools I've written is to build Python packages and installing them. This works well for putting the tools on the PATH, but one thing I've been missing is to also include "OS integration files" (such as manual pages, .desktop app launchers, and systemd unit files). Recently I learned a way to do it.
+
 => gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ 2022-08-17 Launch of Omloppsbanan, an Orbit for Swedish Geminauts
 I've hosted a Gemini capsule for a month now. I'd like to add something to my capsule that is not just static text, so I decided to make an orbit. An orbit is a bunch of Gemini capsules linking to each other in a ring.
 

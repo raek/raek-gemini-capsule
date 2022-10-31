@@ -29,6 +29,7 @@ Since you're visiting from Gemini, you might not be scared by the unformatted HT
 
 ## Latest Posts
 
+=> gemini://blog.raek.se/2022/10/31/os-integration-files-in-python-packages/ 2022-10-31 (blog) OS Integration Files in Python Packages
 => gemlog/2022-10-07-making-my-blog-mobile-friendly.gmi 2022-10-07 (gemlog) Making my Blog Mobile-Friendly
 => gemlog/2022-09-14-python-and-debian-packages.gmi 2022-09-14 (gemlog) Python and Debian Packages
 => gemlog/2022-09-06-on-my-mind.gmi 2022-09-06 (gemlog) On my mind
