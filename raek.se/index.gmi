@@ -58,3 +58,7 @@ The first orbit!
 => gemini://tilde.team/~khuxkm/leo/next.cgi?gemini%3A%2F%2Fraek.se%2F Next Page
 => gemini://tilde.team/~khuxkm/leo/prev.cgi?gemini%3A%2F%2Fraek.se%2F Previous Page
 => gemini://tilde.team/~khuxkm/leo/random.cgi?gemini%3A%2F%2Fraek.se%2F Random Page
+
+## Contact
+
+=> contact.gmi See this page!
