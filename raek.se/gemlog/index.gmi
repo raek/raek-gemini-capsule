@@ -6,6 +6,7 @@ This is my Gemini-exclusive log.
 
 ## Posts
 
+=> 2022-11-18-joined-mastodon.gmi 2022-11-18 Joined Mastodon
 => 2022-10-07-making-my-blog-mobile-friendly.gmi 2022-10-07 Making my Blog Mobile-Friendly
 => 2022-09-14-python-and-debian-packages.gmi 2022-09-14 Python and Debian Packages
 => 2022-09-06-on-my-mind.gmi 2022-09-06 On my mind
