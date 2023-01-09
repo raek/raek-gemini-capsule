@@ -26,6 +26,7 @@ This is my collection of "I want to remember this place" links.
 => //rawtext.club/~sloum/spacewalk.gmi Spacewalk: aggregator
 => //gemini.circumlunar.space/capcom/ CAPCOM: aggregator
 => //skyjake.fi/~Cosmos/ Cosmos: aggregator with threaded view
+=> //gemini.bortzmeyer.org/software/lupa/ Lupa – a Gemini crawler (with detailed statistics)
 
 ## Personal Capsules
 
