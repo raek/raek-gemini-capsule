@@ -1,30 +1,56 @@
 import dataclasses
 from pathlib import Path
 
-from jetforce import GeminiServer, StaticDirectoryApplication, CompositeApplication, Response, Status
+from jetforce import GeminiServer, StaticDirectoryApplication, CompositeApplication, Request, Response, Status
 
 from retrograde.jetforce import install_orbit_routes
 
 
-def static_app(site_hostname):
+class MultilangApplication:
+    def __init__(self, path_to_lang, default_lang=None, *args, **kwargs):
+        self.path_to_lang = path_to_lang
+        self.lang_to_app = {None: StaticDirectoryApplication(default_lang=default_lang, *args, **kwargs)}
+        for lang in set(path_to_lang.values()):
+            self.lang_to_app[lang] = StaticDirectoryApplication(default_lang=lang, *args, **kwargs)
+
+    @property
+    def default(self):
+        return self.lang_to_app[None]
+
+    def __call__(self, environ, send_status):
+        try:
+            request = Request(environ)
+        except Exception:
+            send_status(Status.BAD_REQUEST, "Invalid URL")
+            return
+
+        lang = self.path_to_lang.get(request.path, None)
+        return self.lang_to_app[lang](environ, send_status)
+
+
+def static_app(site_hostname, path_to_lang):
     root = Path.home() / "gemini" / site_hostname
-    return StaticDirectoryApplication(root_directory=str(root))
+    return MultilangApplication(root_directory=str(root), default_lang="en", path_to_lang=path_to_lang)
 
 
-static_sites = [
-    "raek.se",
-    "blog.raek.se",
-    "xn--rk-via.se",  # räk.se
-    "xn--gt9h.xn--rk-via.se",  # 🦐.räk.se
-]
+static_sites = {
+    "raek.se": {
+        "/gemlog/2023-01-03-pali-anu-lape.gmi": "tok",
+    },
+    "blog.raek.se": {
+        "/2009/07/09/moted-ela-volapuk-info/": "vo",
+        "/2009/07/09/moted-ela-volapuk-info/index.gmi": "vo",
+    },
+    "xn--rk-via.se": {},  # räk.se
+    "xn--gt9h.xn--rk-via.se": {},  # 🦐.räk.se
+}
 
-apps = {None: static_app("fallback")}
+apps = {None: static_app("fallback", {})}
+for static_site, path_to_lang in static_sites.items():
+    apps[static_site] = static_app(static_site, path_to_lang)
 
-for static_site in static_sites:
-    apps[static_site] = static_app(static_site)
-
-install_orbit_routes(apps["raek.se"], "demo", "/orbits/demo")
-install_orbit_routes(apps["raek.se"], "omloppsbanan", "/orbits/omloppsbanan")
+install_orbit_routes(apps["raek.se"].default, "demo", "/orbits/demo")
+install_orbit_routes(apps["raek.se"].default, "omloppsbanan", "/orbits/omloppsbanan")
 
 
 app = CompositeApplication(apps)
