@@ -24,7 +24,10 @@ class MultilangApplication:
             send_status(Status.BAD_REQUEST, "Invalid URL")
             return
 
-        lang = self.path_to_lang.get(request.path, None)
+        lang = None
+        for path_prefix, prefix_lang in self.path_to_lang.items():
+            if request.path.startswith(path_prefix):
+                lang = prefix_lang
         return self.lang_to_app[lang](environ, send_status)
 
 
@@ -36,10 +39,10 @@ def static_app(site_hostname, path_to_lang):
 static_sites = {
     "raek.se": {
         "/gemlog/2023-01-03-pali-anu-lape.gmi": "tok",
+        "/toki-pona/": "tok",
     },
     "blog.raek.se": {
         "/2009/07/09/moted-ela-volapuk-info/": "vo",
-        "/2009/07/09/moted-ela-volapuk-info/index.gmi": "vo",
     },
     "xn--rk-via.se": {},  # räk.se
     "xn--gt9h.xn--rk-via.se": {},  # 🦐.räk.se

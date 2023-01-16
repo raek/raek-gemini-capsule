@@ -6,6 +6,9 @@ Everything on this capsule (raek.se) is Gemini exclusive. Stuff that are also av
 
 ## My Stuff
 
+=> toki-pona/ lipu tomo pi jan Wekan
+ni li lipu tomo mi kepeken toki pona.
+
 => gemlog/ Gemlog - Gemini exclusive!
 Here I write shorter texts. More personal. Less sensical.
 

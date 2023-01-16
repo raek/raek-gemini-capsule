@@ -35,7 +35,7 @@ Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, 
 
 ## Toki Pona
 
-=> //toki.pona.billsmugs.com/ jan Osi
+=> //toki.pona.billsmugs.com/ ⭐ jan Osi
 => //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
 => //sysrq.in/tok/ jan Anja
 => //gemini.locrian.zone/pona/index.gmi Locrian.zone
