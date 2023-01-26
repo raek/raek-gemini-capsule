@@ -1,0 +1,56 @@
+# Family, toki pona, Playdate, Bitsy, and the Clarinet
+
+This was supposed to be as small "on my mind" bullet list, but it quickly grew to a larger post. Enjoy!
+
+## Family
+
+A little more than a month ago my second daughter was born. What that means is hard to summarize in a few words. I'm very fortunate to have the ability be on parental leave together with my wife these early weeks!
+
+## toki pona
+
+A minimalistic constructed language. I've made a new more serious attempt to learn it. I began around new year's. I knew most of the grammar from before (there isn't much of it). This time I loaded up a deck of words (and logograms!) in my AnkiDroid app (spaced repetition of flash cards). I picked the deck with all the words sorted by usage frequency.
+
+Now I recognize all the 120 "nimi pu" words (and most of the few additional "nimi ku suli"), and feel that I can master using about half of them without consulting the dictionary. I doodle using the logograms ("sitelen pona") a bit every day. It's fun! I've come to a point where I can read most toki pona texts I encounter without using the dictionary.
+
+That kind of progress is why toki pona is such an interesting constructed language to learn. It's doable without that much effort! The enthusiasm of jan Misali in his video lessons on YouTube was the thing that lit my own enthusiasm.
+
+=> https://www.youtube.com/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX jan Misali's toki pona lessons (YouTube)
+
+I've even had conversations in toki pona. One in the #gemini IRC channel, and one with jan Osi (billsmugs) through email. He has a neat "talk to me in toki pona" form on his capsule, so I used it! On his toki pona capsule I ended up learning about two new interesting things: Playdate and Bitsy
+
+=> //toki.pona.billsmugs.com/ jan Osi's toki pona only capsule
+
+Some friends of mine are also learning toki pona. I hope we can talk soon!
+
+I've also started working on a toki pona only part of my capsule (my tokiponized name is "jan Wekan"):
+
+=> //raek.se/toki-pona/ lipu tomo pi jan Wekan
+
+## Playdate
+
+Playdate is a delightfully weird handhold retro-style console with a novel additional input device: a crank. I think I've seen two different persons mention it on Gemini now. Should I buy one? I'm very tempted... It'll probably not be the most fun-for-the-buck, but I have a soft spot for well-executed silly ideas.
+
+=> https://play.date/ Playdate website
+
+## Bitsy
+
+Another thing I learned about at jan Osi's / billsmugs' capsule was Bitsy, a browser based game engine for making small Atari/NES-style games focusing on narrative. It constrains you a lot, but I believe that such constrains are good creativity – especially for me.
+
+I played around in it and found that is also has a simple tune editor. You only get two voices (melody and bass), and you only get 4/4 time. You can adjust the tempo as well as timbre of the instruments in a few fixed steps. You can also get automatic arpeggios for the bass.
+
+I ended up creating a tune I was quite happy with. (I don't normally write tunes, but was pleasanly surprised that I could this time.) I was aiming for a dreadful and mysterious sound (maybe for a story in a space ship while being boarded) so I went with the phrygian mode. I'll share a link to it, but note that this "game" is merely a demo for the tune, so you can ignore everything but the music.
+
+=> files/rymdjakten.html "Rymdjakten" (demo of the tune)
+=> https://raek.se/shared/rymdjakten.html HTTPS version (open with your large web browser)
+
+I hope I could make a small game in a space ship setting some day...
+
+## The Clarinet
+
+I've picked up playing the clarinet again. Couriously I did the same thing when we got our first daughter. It's fun practicing! Hobbies that are easy can be started and interrupted quickly are good to have when parenting a baby...
+
+
+
+-- raek, 2023-01-26
+
+=> ./ Back to gemlog
