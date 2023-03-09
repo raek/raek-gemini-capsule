@@ -7,6 +7,11 @@ All pages in this capsule (blog.raek.se) are also served on HTTPS. This file fol
 => feed.gmi List of posts without summaries (feed)
 => https://blog.raek.se/ HTTP version of this blog
 
+## 2023
+
+=> gemini://blog.raek.se/2023/03/09/new-case-for-my-bitx40-radio/ 2023-03-09 New Case for my BITX40 Radio
+My BITX40 needs a proper case. It's an amateur radio transceiver kit for the 40 meter band by Ashar Farhan VU2ESE. In this post I show some pictures of my progress of rebuilding it in a new case.
+
 ## 2022
 
 => gemini://blog.raek.se/2022/10/31/os-integration-files-in-python-packages/ 2022-10-31 OS Integration Files in Python Packages

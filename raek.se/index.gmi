@@ -32,6 +32,7 @@ Since you're visiting from Gemini, you might not be scared by the unformatted HT
 
 ## Latest Posts
 
+=> gemini://blog.raek.se/2023/03/09/new-case-for-my-bitx40-radio/ 2023-03-09 (blog) New Case for my BITX40 Radio
 => gemlog/2023-01-26-family-toki-pona-playdate-bitsy-and-the-clarinet.gmi 2023-01-26 (gemlog) Family, toki pona, Playdate, Bitsy, and the Clarinet
 => gemlog/2023-01-03-pali-anu-lape.gmi 2023-01-03 (gemlog, toki pona) pali anu lape
 => gemlog/2022-11-18-joined-mastodon.gmi 2022-11-18 (gemlog) Joined Mastodon
