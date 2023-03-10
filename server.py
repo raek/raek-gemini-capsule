@@ -54,6 +54,7 @@ for static_site, path_to_lang in static_sites.items():
 
 install_orbit_routes(apps["raek.se"].default, "demo", "/orbits/demo")
 install_orbit_routes(apps["raek.se"].default, "omloppsbanan", "/orbits/omloppsbanan")
+install_orbit_routes(apps["raek.se"].default, "space-elevator", "/orbits/space-elevator")
 
 
 app = CompositeApplication(apps)

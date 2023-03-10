@@ -2,7 +2,8 @@
 
 This capsule is the home of the Retrograde orbit backend and hosts the following orbits:
 
+=> space-elevator Space Elevator - The quickest way into orbit
 => omloppsbanan Omloppsbanan – An orbit for Swedish geminauts
-=> demo The Demo Orbit – Retrograde test orbit
+=> demo The Demo Orbit – Test orbit for trying out Retrograde
 
 => gemini://raek.se/projects/retrograde/ Retrograde Project
