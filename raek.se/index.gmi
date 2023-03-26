@@ -2,34 +2,6 @@
 
 Welcome to my capsule, fellow geminaut! This capsule was launched 2022-07-17.
 
-Everything on this capsule (raek.se) is Gemini exclusive. Stuff that are also available via HTTPS are served on other subdomains (for example, blog.raek.se).
-
-## My Stuff
-
-=> toki-pona/ lipu tomo pi jan Wekan
-ni li lipu tomo mi kepeken toki pona.
-
-=> gemlog/ Gemlog - Gemini exclusive!
-Here I write shorter texts. More personal. Less sensical.
-
-=> gemini://blog.raek.se/ Blog - also on HTTPs
-My blog is served on both Gemini and HTTPS. Most of the posts were written before I launched my Gemini capsule, but have been converted to gemtext for comfortable reading.
-
-=> links/recommendations.gmi Recommended Capsules and Pages
-Gemini space is an interesting place! This is where I keep links to things you should check out.
-
-=> projects/retrograde/ Retrograde
-A Python library for hosting orbits ("webrings").
-
-=> books.gmi Books I've read
-Chronological list starting from 2019 (when I had a reading resurgence).
-
-=> test.gmi Gemini client test page
-Unicode and emojis in domain names! I set up some silly domains so you don't have to.
-
-=> https://raek.se/ My old-fashioned HTTP website
-Since you're visiting from Gemini, you might not be scared by the unformatted HTML.
-
 ## Latest Posts
 
 => gemini://blog.raek.se/2023/03/09/new-case-for-my-bitx40-radio/ 2023-03-09 (blog) New Case for my BITX40 Radio
@@ -42,6 +14,34 @@ Since you're visiting from Gemini, you might not be scared by the unformatted HT
 => gemlog/2022-09-06-on-my-mind.gmi 2022-09-06 (gemlog) On my mind
 => gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ 2022-08-17 (blog) Launch of Omloppsbanan, an Orbit for Swedish Geminauts
 => gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 (blog) Electromagnetism, integrals and symmetry
+
+## My Stuff
+
+Everything on this capsule (raek.se) is only served on Gemini. Stuff also available on HTTPS is served on separate subdomains (for example, blog.raek.se).
+
+=> gemlog/ Gemlog - Gemini exclusive!
+Here I write shorter texts. More personal. Less sensical.
+
+=> gemini://blog.raek.se/ Blog - also on HTTPs
+My blog is served on both Gemini and HTTPS. Most of the posts were written before I launched my Gemini capsule, but have been converted to gemtext for comfortable reading.
+
+=> links/recommendations.gmi Recommended Capsules and Pages
+Gemini space is an interesting place! This is where I keep links to things you should check out.
+
+=> toki-pona/ lipu tomo pi jan Wekan
+ni li lipu tomo mi kepeken toki pona.
+
+=> projects/retrograde/ Retrograde
+A Python library for hosting orbits ("webrings").
+
+=> books.gmi Books I've read
+Chronological list starting from 2019 (when I had a reading resurgence).
+
+=> test.gmi Gemini client test page
+Unicode and emojis in domain names! I set up some silly domains so you don't have to.
+
+=> https://raek.se/ My old-fashioned HTTP website
+Since you're visiting from Gemini, you might not be scared by the unformatted HTML.
 
 ## Orbits
 
