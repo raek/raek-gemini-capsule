@@ -19,10 +19,11 @@ This is my collection of "I want to remember this place" links.
 
 ## Search Engines, Aggregators, etc
 
-=> //medusae.space/ medusae.space: directory organized by categories (like in the warly web)
+=> //medusae.space/ medusae.space: directory organized by categories (like in the early web)
 => //geminispace.info/ geminispace.info: search engine, list of known capsules, statistics
 => //kennedy.gemi.dev/ Kennedy: search engine
 => //tlgs.one/ TLGS – "Totally Legit" Gemini Search
+=> //warmedal.se/~antenna/ Antenna – submission-based feed aggregato
 => //rawtext.club/~sloum/spacewalk.gmi Spacewalk: aggregator
 => //gemini.circumlunar.space/capcom/ CAPCOM: aggregator
 => //skyjake.fi/~Cosmos/ Cosmos: aggregator with threaded view
@@ -52,6 +53,12 @@ This is my collection of "I want to remember this place" links.
 => //gemini.ctrl-c.club/~wholesomedonut/ wholesomedonut
 => //bvnf.space/ ben
 => //arcanesciences.com/ Sunset Ash
+=> //michaelnordmeyer.com/ Michael Nordmeyer
+=> //hanicef.me/ Hanicef
+=> //gemini.lehmann.cx/ Alexander
+=> //cyborgfoxsyndicate.online/ Kirsa
+=> //tilde.team/~tomasino/ James Tomasino
+=> //kwiecien.us/ Ben
 
 ## Articles
 
@@ -65,3 +72,6 @@ This is my collection of "I want to remember this place" links.
 => gemini://warp.geminispace.club/~freezr/gemlog/2022-08-04-relog.gmi Introducing the Re:log concept
 => gemini://siiky.srht.site/meta/reclog.gmi Reclog
 => gemini://gemini.thebackupbox.net/~epoch/ascii-art/banana A banana
+=> gemini://tilde.town/~dzwdz/b/feeds.gmi feeds are a dark pattern
+=> gemini://idiomdrottning.org/gemini-links HTML links translated to Gemini
+=> gemini://tilde.team/~tomasino/journal/20220214-dane-and-tls.gmi DANE and TLS
