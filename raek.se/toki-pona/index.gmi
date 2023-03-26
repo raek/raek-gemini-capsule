@@ -1,18 +1,26 @@
 # lipu tomo pi jan Wekan
 
-toki! o kama pona tawa lipu tomo mi!
+toki! o kama pona tawa lipu tomo mi lon ma Kemini.
 
-## sitelen mi kepeken toki pona
+## lipu mi kepeken toki pona
 
 => /gemlog/2023-01-03-pali-anu-lape.gmi 2023-01-03 pali anu lape
 
-## jan ante kepeken toki pona
+## lipu pi jan ante
+
+jan ni li jo e lipu tomo kepeken toki pona:
 
 => //toki.pona.billsmugs.com/ jan Osi
-=> //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
 => //sysrq.in/tok/ jan Anja
+=> //gem.girlmeow.autos/log/lipu/ jan Salinka-Jen
+=> //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
 => //gemini.locrian.zone/pona/index.gmi Locrian.zone
-=> //gem.girlmeow.autos/cgi-bin/lipu.pl/ jan Salinka-Jen
 => //kulu.pw/users/kulupu.keta/toki.pona/ kulupu keta
 => //alchemi.dev/tp/ jan Emi
 => //tilde.cafe/~winter/tok/ jan Winte
+=> //thingvellir.net/tok/ jan Ata
+
+lipu ni li kepeken toki pona:
+
+=> //tris.fyi/flightlog/2023-01-03-toki-sewi-tawa-mun.gmi toki sewi tawa mun
+=> //gemini.alligatr.co.uk/2020-09-07-meli-lili-pi-len-loje.gmi sina mi la meli lili pi len loje

@@ -36,15 +36,18 @@ Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, 
 ## Toki Pona
 
 => //toki.pona.billsmugs.com/ ⭐ jan Osi
-=> //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
 => //sysrq.in/tok/ jan Anja
+=> //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
 => //gemini.locrian.zone/pona/index.gmi Locrian.zone
 => //gem.girlmeow.autos/cgi-bin/lipu.pl/ jan Salinka-Jen
 => //kulu.pw/users/kulupu.keta/toki.pona/ kulupu keta
 => //alchemi.dev/tp/ jan Emi
 => //tilde.cafe/~winter/tok/ jan Winte
+=> //thingvellir.net/tok/ jan Ata
 
 => //tris.fyi/flightlog/2023-01-03-toki-sewi-tawa-mun.gmi toki sewi tawa mun
+
+=> /toki-pona/ jan Wekan (my own toki pona home page)
 
 ## Gemini Software I Use
 
