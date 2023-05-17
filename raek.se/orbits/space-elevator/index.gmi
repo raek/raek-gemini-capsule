@@ -5,6 +5,7 @@
 Space Elevator is an orbit – a group of capsules that links to each other in a ring. Like a webring, but for Gemini
 
 => random Jump to a random page in the orbit!
+=> list List of capsules in the orbit
 
 
 ## How to join
