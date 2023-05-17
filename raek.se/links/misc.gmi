@@ -59,6 +59,10 @@ This is my collection of "I want to remember this place" links.
 => //cyborgfoxsyndicate.online/ Kirsa
 => //tilde.team/~tomasino/ James Tomasino
 => //kwiecien.us/ Ben
+=> //gem.librehacker.com/ LibreHacker
+=> //lesogorov.site/ Lesogorov
+=> //gemini.sh0.xyz/ Jeff
+=> //gemini.ctrl-c.club/~tjp/ tjp
 
 ## Articles
 
@@ -75,3 +79,4 @@ This is my collection of "I want to remember this place" links.
 => gemini://tilde.town/~dzwdz/b/feeds.gmi feeds are a dark pattern
 => gemini://idiomdrottning.org/gemini-links HTML links translated to Gemini
 => gemini://tilde.team/~tomasino/journal/20220214-dane-and-tls.gmi DANE and TLS
+=> gemini://gemini.hitchhiker-linux.org/gemlog/runit_vs_s6.gmi Runit vs S6

@@ -16,7 +16,7 @@ Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, 
 ## Others' Bookmark Collections
 
 => //warmedal.se/~bjorn/recommendations/ ⭐ ew0k's recommended reading
-=> gemini://tilde.team/~aprilnightk/links.gmi Keith Aprilnight's links catalog
+=> //tilde.team/~tomasino/gemini-places/ tomasino's gemini places
 
 ## Interactive Apps
 
