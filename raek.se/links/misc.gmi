@@ -63,6 +63,8 @@ This is my collection of "I want to remember this place" links.
 => //lesogorov.site/ Lesogorov
 => //gemini.sh0.xyz/ Jeff
 => //gemini.ctrl-c.club/~tjp/ tjp
+=> //bobignou.red/ bobignou.red
+=> //clanmorgan.org/ CircaDian
 
 ## Articles
 

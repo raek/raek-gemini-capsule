@@ -51,11 +51,10 @@ Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, 
 
 ## Gemini Software I Use
 
-=> gemini://skyjake.fi/lagrange/ ⭐ Lagrange: beautiful desktop client (by skyjake)
+=> gemini://skyjake.fi/lagrange/ ⭐ Lagrange: beautiful desktop and mobile client (by skyjake)
 => https://github.com/snoe/deedum Deedum: Android client (by snoe)
-=> https://skyjake.github.io/fdroid/repo/ Lagrange: pre-release Android client (by skyjake)
 => https://github.com/makeworld–the–better–one/amfora Amfora: terminal UI client (by makeworld)
-=> https://github.com/michael–lazar/jetforce Jetforce: server written in Python (by mozz) – used to servce this capsule!
+=> https://github.com/michael–lazar/jetforce Jetforce: server written in Python (by mozz) – used to serve this capsule!
 => https://portal.mozz.us/ portal.mozz.us: Gemini→HTTPS Proxy (by mozz)
 
 ## Protocol Documentation
