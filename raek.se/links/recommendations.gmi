@@ -37,9 +37,9 @@ Links marked with a ⭐ star are my highlighted picks. If you're new to gemini, 
 
 => //toki.pona.billsmugs.com/ ⭐ jan Osi
 => //sysrq.in/tok/ jan Anja
+=> //gem.girlmeow.autos/cgi-bin/lipu.pl/ jan Salinsen
 => //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
 => //gemini.locrian.zone/pona/index.gmi Locrian.zone
-=> //gem.girlmeow.autos/cgi-bin/lipu.pl/ jan Salinka-Jen
 => //kulu.pw/users/kulupu.keta/toki.pona/ kulupu keta
 => //alchemi.dev/tp/ jan Emi
 => //tilde.cafe/~winter/tok/ jan Winte

@@ -12,7 +12,7 @@ jan ni li jo e lipu tomo kepeken toki pona:
 
 => //toki.pona.billsmugs.com/ jan Osi
 => //sysrq.in/tok/ jan Anja
-=> //gem.girlmeow.autos/log/lipu/ jan Salinka-Jen
+=> //gem.girlmeow.autos/cgi-bin/lipu.pl/ jan Salinsen
 => //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
 => //gemini.locrian.zone/pona/index.gmi Locrian.zone
 => //kulu.pw/users/kulupu.keta/toki.pona/ kulupu keta
