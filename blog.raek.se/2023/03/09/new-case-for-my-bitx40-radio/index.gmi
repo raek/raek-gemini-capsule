@@ -1,5 +1,8 @@
 # New Case for my BITX40 Radio
 
+=> /2023/03/09/new-case-for-my-bitx40-radio/ Part 1 (this page)
+=> /2023/06/26/finishing-the-bitx40-case/ Part 2
+
 My BITX40 needs a proper case. It's an amateur radio transceiver kit for the 40 meter band by Ashar Farhan VU2ESE. I originally tested the kit by mounting it to an MDF board. It's not very ergonomic nor very portable.
 
 => https://www.hfsignals.com/index.php/bitx40/ BITX40 Website
@@ -45,7 +48,7 @@ To the right:
 I tried to place the components so that it would be easy to use both hands simultaneously. I had some uses cases in mind:
 
 * Tuning around and listening. Tune with the right hand, and continuously adjust volume with the left (due to the lack of AGC)
-* Talking.Flip the PTT switch back and forth with the right hand, and adjust volume with the left.
+* Talking. Flip the PTT switch back and forth with the right hand, and adjust volume with the left.
 * Fine-tuning and adjusting settings. Hold the fine tune button (or press the function button) with the right hand and adjust the tuning knob with the right.
 
 I added extra room between the PTT switch and the tuning knob. It was barely enough. If the switch is in the down position it is slightly in the way. Originally, I wanted "up" to be "transmit" (as in, the signal goes up into the air), but I now I'll make "up" be "receive" so that the switch is least in the way while tuning.
