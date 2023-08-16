@@ -4,6 +4,7 @@ Welcome to my capsule! I'm raek [rɛːk] (Rasmus Bondesson), an all over the pla
 
 ## Latest Posts
 
+=> gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 (blog) First Contact with an Antenna Made in a Hurry
 => gemini://blog.raek.se/2023/06/26/finishing-the-bitx40-case/ 2023-06-26 (blog) Finishing the BITX40 Case
 => gemini://blog.raek.se/2023/03/09/new-case-for-my-bitx40-radio/ 2023-03-09 (blog) New Case for my BITX40 Radio
 => gemlog/2023-01-26-family-toki-pona-playdate-bitsy-and-the-clarinet.gmi 2023-01-26 (gemlog) Family, toki pona, Playdate, Bitsy, and the Clarinet
@@ -13,8 +14,6 @@ Welcome to my capsule! I'm raek [rɛːk] (Rasmus Bondesson), an all over the pla
 => gemlog/2022-10-07-making-my-blog-mobile-friendly.gmi 2022-10-07 (gemlog) Making my Blog Mobile-Friendly
 => gemlog/2022-09-14-python-and-debian-packages.gmi 2022-09-14 (gemlog) Python and Debian Packages
 => gemlog/2022-09-06-on-my-mind.gmi 2022-09-06 (gemlog) On my mind
-=> gemini://blog.raek.se/2022/08/17/launch-of-omloppsbanan-an-orbit-for-swedish-geminauts/ 2022-08-17 (blog) Launch of Omloppsbanan, an Orbit for Swedish Geminauts
-=> gemini://blog.raek.se/2022/07/21/electromagnetism-integrals-and-symmetry/ 2022-07-21 (blog) Electromagnetism, integrals and symmetry
 
 ## My Stuff
 

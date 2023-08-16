@@ -1,5 +1,6 @@
 # raek's Blog
 
+=> gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 First Contact with an Antenna Made in a Hurry
 => gemini://blog.raek.se/2023/06/26/finishing-the-bitx40-case/ 2023-06-26 Finishing the BITX40 Case
 => gemini://blog.raek.se/2023/03/09/new-case-for-my-bitx40-radio/ 2023-03-09 New Case for my BITX40 Radio
 => gemini://blog.raek.se/2022/10/31/os-integration-files-in-python-packages/ 2022-10-31 OS Integration Files in Python Packages

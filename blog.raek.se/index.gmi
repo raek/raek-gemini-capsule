@@ -9,6 +9,9 @@ All pages in this capsule (blog.raek.se) are also served on HTTPS. This file fol
 
 ## 2023
 
+=> gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 First Contact with an Antenna Made in a Hurry
+I'm a radio amateur newbie and I've struggled to get on the air with my shortwave BITX40 radio. This time I tried my handheld Baofeng UV-5R+ VHF/UHF radio, realized my signal was too weak, improvised an antenna, and made a contact.
+
 => gemini://blog.raek.se/2023/06/26/finishing-the-bitx40-case/ 2023-06-26 Finishing the BITX40 Case
 This post concludes the write-up of the project where I put my BITX40 transceiver board into a new enclosure.
 
