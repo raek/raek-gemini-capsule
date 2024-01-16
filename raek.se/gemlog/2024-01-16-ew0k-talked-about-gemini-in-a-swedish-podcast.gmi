@@ -1,0 +1,15 @@
+# ew0k talked about Gemini in a Swedish podcast
+
+Today my favorite Swedish developer podcast Kodsnack (that is, "code chat", not "cod snack", but that sounds like a think that you could actually find in northern Europe, probably Iceland. I digress.) released a new episode about my favorite network protocol: Gemini!
+
+=> https://kodsnack.se/565/ Kodsnack 565 - Protokollet är fruset, med Björn Wärmedal
+
+It is in Swedish and the interviewee is none other than ew0k (aka Björn). He talks about the context of the protocol, the details of it (since there's not too much to describe, it works totally OK in a podcast), and what you can find on Gemini. The interview was really pleasant to listen to. Fredrik, the host, was clearly interested and had just at the right curiosity to knowledge ratio for this conversation to turn out really well. Fredrik had head about it before, even tried it, but needed someone to give the grand tour introduction - which Björn delivered! He touched on all the important bits and much more. I was pleasanly surprised to learn that Antenna and his gemlog were both served from a Raspberry Pi 2 in a drawer at his home. I think the interview really captured the gist of what I think of as the playful, human and creative Gemini spirit.
+
+=> //warmedal.se/~bjorn/ ew0k's capsule
+
+
+
+--- raek, 2024-01-16
+
+=> ./ Back to gemlog
