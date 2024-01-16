@@ -12,7 +12,7 @@ I had heard that the stock antennas for handhelds like mine weren't very good. M
 
 Said and done. I put the terminal block adapter on a piece of wood, added a bamboo stick from the garden shed and taped the wires to it. I also put three small ferrite beads at the terminal block as a common mode choke. I have no idea if those small beads made much difference in the end. Didn't hurt though.
 
-I trimmed the antenna to make it resonant at 145 MHz by cutting and bending the ends of the diple legs. I used my NanoVNA (on of my favorite tools!) to measure the antenna impedance and SWR. It was very satisfying and I was happy to see that I got good SWR on the whole 2m band.
+I trimmed the antenna to make it resonant at 145 MHz by cutting and bending the ends of the diple legs. I used my NanoVNA (one of my favorite tools!) to measure the antenna impedance and SWR. It was very satisfying and I was happy to see that I got good SWR on the whole 2m band.
 
 I connected the antenna to the radio and tried calling CQ again. The same guy replied this time too! He could read my call sign this time and we ended up having a long pleasant chat. And he turned out to be the one I was I thought I had talked to before on that antenna day. At the time he was a pretty new radio amateur and had built a cool moxon antenna. I consider this to be my first successful (non-preplanned) QSO, and I'm very happy with how it went!
 

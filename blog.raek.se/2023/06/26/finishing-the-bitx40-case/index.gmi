@@ -91,6 +91,7 @@ I have some ideas for what to do next:
 => https://groups.io/g/BITX20/topic/99798143 Topic on Groups.io for this blog post
 
 
+
 -- raek, 2023-06-26
 
 => gemini://blog.raek.se/ Back to blog
