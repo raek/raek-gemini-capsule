@@ -4,6 +4,7 @@ Welcome to my capsule! I'm raek [rɛːk] (Rasmus Bondesson), an all over the pla
 
 ## Latest Posts
 
+=> gemini://blog.raek.se/2024/02/05/hf-antenna-in-the-attic/ (blog) 2024-02-05 HF Antenna in the Attic
 => gemlog/2024-01-16-ew0k-talked-about-gemini-in-a-swedish-podcast.gmi 2024-01-16 (gemlog) ew0k talked about Gemini in a Swedish podcast
 => gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 (blog) First Contact with an Antenna Made in a Hurry
 => gemini://blog.raek.se/2023/06/26/finishing-the-bitx40-case/ 2023-06-26 (blog) Finishing the BITX40 Case
@@ -13,7 +14,6 @@ Welcome to my capsule! I'm raek [rɛːk] (Rasmus Bondesson), an all over the pla
 => gemlog/2022-11-18-joined-mastodon.gmi 2022-11-18 (gemlog) Joined Mastodon
 => gemini://blog.raek.se/2022/10/31/os-integration-files-in-python-packages/ 2022-10-31 (blog) OS Integration Files in Python Packages
 => gemlog/2022-10-07-making-my-blog-mobile-friendly.gmi 2022-10-07 (gemlog) Making my Blog Mobile-Friendly
-=> gemlog/2022-09-14-python-and-debian-packages.gmi 2022-09-14 (gemlog) Python and Debian Packages
 
 ## My Stuff
 

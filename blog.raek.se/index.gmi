@@ -7,6 +7,11 @@ All pages in this capsule (blog.raek.se) are also served on HTTPS. This file fol
 => feed.gmi List of posts without summaries (feed)
 => https://blog.raek.se/ HTTP version of this blog
 
+## 2024
+
+=> gemini://blog.raek.se/2024/02/05/hf-antenna-in-the-attic/ 2024-02-05 HF Antenna in the Attic
+I made a new antenna back in August and it's time to write about it. I began the project because I was not very pleased with my antenna on the balcony. I wanted something more properly constructed, with convenient access, and the possibility of future modifications. The solution was to put an antenna in the attic.
+
 ## 2023
 
 => gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 First Contact with an Antenna Made in a Hurry
