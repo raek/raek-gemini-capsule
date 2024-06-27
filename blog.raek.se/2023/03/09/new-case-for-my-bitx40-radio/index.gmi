@@ -3,7 +3,7 @@
 => /2023/03/09/new-case-for-my-bitx40-radio/ Part 1 (this page)
 => /2023/06/26/finishing-the-bitx40-case/ Part 2
 
-My BITX40 needs a proper case. It's an amateur radio transceiver kit for the 40 meter band by Ashar Farhan VU2ESE. I originally tested the kit by mounting it to an MDF board. It's not very ergonomic nor very portable.
+My BITX40 needs a proper case. It's an amateur radio transceiver kit for the 40 meter band by Ashhar Farhan VU2ESE. I originally tested the kit by mounting it to an MDF board. It's not very ergonomic nor very portable.
 
 => https://www.hfsignals.com/index.php/bitx40/ BITX40 Website
 => files/al_fresco.jpg Figure 1. BITX40 test build on an MDF board

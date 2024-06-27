@@ -24,7 +24,7 @@ I'm a radio amateur newbie and I've struggled to get on the air with my shortwav
 This post concludes the write-up of the project where I put my BITX40 transceiver board into a new enclosure.
 
 => gemini://blog.raek.se/2023/03/09/new-case-for-my-bitx40-radio/ 2023-03-09 New Case for my BITX40 Radio
-My BITX40 needs a proper case. It's an amateur radio transceiver kit for the 40 meter band by Ashar Farhan VU2ESE. In this post I show some pictures of my progress of rebuilding it in a new case.
+My BITX40 needs a proper case. It's an amateur radio transceiver kit for the 40 meter band by Ashhar Farhan VU2ESE. In this post I show some pictures of my progress of rebuilding it in a new case.
 
 ## 2022
 
