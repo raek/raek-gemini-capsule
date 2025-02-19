@@ -2,9 +2,14 @@
 
 I read books in Swedish and English. I've added the corresponding English title in [brakets] when applicable. Books in each year are listen in order of completion with the last one read at the bottom. The non-bracketed title reflects the language in which I read the book.
 
+## 2024
+
+* Open Circuits – The Inner Beauty of Electronic Components – Eric Schlaepfer and Windell H. Oskay
+
 ## 2023
 
 * Toki Pona – The Language of Good – Sonja Lang
+* Morse Code – How to Learn and Make Radio Contacts – David González EA7HYD
 
 ## 2022
 
