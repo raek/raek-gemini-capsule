@@ -2,7 +2,7 @@
 
 > The quickest way into orbit
 
-Space Elevator is an orbit – a group of capsules that links to each other in a ring. Like a webring, but for Gemini
+Space Elevator is an orbit – a group of capsules that links to each other in a ring. Like a webring, but for Gemini. The goal of this orbit is to be an easy way for newcomers to get their capsules discovereable.
 
 => random Jump to a random page in the orbit!
 => list List of capsules in the orbit
@@ -10,9 +10,14 @@ Space Elevator is an orbit – a group of capsules that links to each other in a
 
 ## How to join
 
-To join Space Elevator, add "next", "previous" and "about" links to some page on your capsule. Enter your URL in this admin dashboard to have correct example link gemtext generated for you.
+To join Space Elevator, add "next", "previous" and "about" links to a page of your choice in your capsule. Enter your URL in this admin dashboard to have correct example link gemtext generated for you.
 
 => dashboard Admin dashboard
+
+Do you have problems adding your capsule to the orbit?
+=> /contact.gmi Get in touch and I'll help you!
+
+Note, you can put the navigation links at the bottom of the main page, or you can put them in a separate "docking ring" page. It's up to you!
 
 You can also use the admin dashboard to check the status of your capsule, or trigger the removal of page when the links are missing.
 

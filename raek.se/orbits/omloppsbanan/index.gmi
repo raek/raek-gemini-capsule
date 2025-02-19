@@ -30,7 +30,7 @@ Hejsan! An orbit is a collection of capsules linking to each other in a ring. Th
 
 ## How to join
 
-You need to add a few links to your page. I made an interactive help page that generates example gemtext that you can paste to your page:
+You need to add a few links to a page of your choice in your capsule. I made an interactive help page that generates example gemtext that you can paste to your page:
 
 => dashboard Dashboard
 
@@ -50,7 +50,7 @@ Planerandet av omloppsbanan påbörjades av Räk, någonstans i utkanten av Link
 > kapselns första stilla kretsgång.
 > Inga lågor längre bränna,
 > inga vissel från dess vindfång.
-> 
+>
 > Fånga nu i nätverksstacken,
 > detta varvet som har öppnats.
 > Klart jag ser, som svar i ACK:en,
