@@ -1,0 +1,24 @@
+# News for the 'Space Elevator' Orbit
+
+Some of you might now that I launched an orbit (like webring, but for gemini) in the summer of 2022. For two and a half years it has been running pretty much unchanged.
+
+=> /orbits/space-elevator/ Space Elevator
+
+Every now and then I have peeked into the logs to see if anyone has submitted capsule URLs for inclusion that haven't gotten through. And it turns out it happens sometimes.
+
+So I made some improvements!
+
+* The parser now accepts links without a space between the => and the URL.
+* The "Admin Portal" now shows a log of the last membership check for the page.
+* For each required (and optional) link, it is shown whether it was found.
+* A list of all other found links is also displayed when a required one is missing (to aid in comparing them to the required links).
+
+Previously the page author was only told whether the validation passed or failed, but no more details. Now when both the expected links and the actual found links are displayed together, hopefully things will be easier!
+
+One feature that's still missing is for the code behind the orbit (Retrograde) to automatically check that pages are still valid every now and then, and remove them if they go down. That's work for another night, though.
+
+
+
+--- raek, 2025-02-20
+
+=> ./ Back to gemlog

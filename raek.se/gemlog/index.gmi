@@ -6,6 +6,7 @@ This is my Gemini-exclusive log.
 
 ## Posts
 
+=> 2025-02-20-news-for-the-space-elevator-orbit.gmi 2025-02-20 News for the 'Space Elevator' Orbit
 => 2024-01-16-ew0k-talked-about-gemini-in-a-swedish-podcast.gmi 2024-01-16 ew0k talked about Gemini in a Swedish podcast
 => 2023-01-26-family-toki-pona-playdate-bitsy-and-the-clarinet.gmi 2023-01-26 Family, toki pona, Playdate, Bitsy, and the Clarinet
 => 2023-01-03-pali-anu-lape.gmi 2023-01-03 [toki pona] pali anu lape
