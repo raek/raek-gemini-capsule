@@ -65,6 +65,9 @@ This is my collection of "I want to remember this place" links.
 => //gemini.ctrl-c.club/~tjp/ tjp
 => //bobignou.red/ bobignou.red
 => //clanmorgan.org/ CircaDian
+=> //nytpu.com/ nytpu
+=> //betabube.xyz/ betabube
+=> //vigrey.com/ Vi Grey
 
 ## Articles
 
@@ -82,3 +85,5 @@ This is my collection of "I want to remember this place" links.
 => gemini://idiomdrottning.org/gemini-links HTML links translated to Gemini
 => gemini://tilde.team/~tomasino/journal/20220214-dane-and-tls.gmi DANE and TLS
 => gemini://gemini.hitchhiker-linux.org/gemlog/runit_vs_s6.gmi Runit vs S6
+=> gemini://laniakea.rodoste.de/tui/amfora.gmi Amfora cheatsheet
+=> gemini://nytpu.com/gemlog/2023-06-23.gmi The Playdate
