@@ -45,24 +45,31 @@ Unicode and emojis in domain names! I set up some silly domains so you don't hav
 => https://raek.se/ My old-fashioned HTTP website
 Since you're visiting from Gemini, you might not be scared by the unformatted HTML.
 
-## Orbits
+## 🪐 Orbits / Rings
 
 An orbit is a ring of Gemini pages linking to each other (like a webring on the web, but for Gemini).
 
-=> gemini://raek.se/orbits/space-elevator/ Space Elevator - The quickest way into orbit
-=> gemini://raek.se/orbits/space-elevator/next?gemini%3A%2F%2Fraek.se%2F Next Page
-=> gemini://raek.se/orbits/space-elevator/prev?gemini%3A%2F%2Fraek.se%2F Previous Page
-=> gemini://raek.se/orbits/space-elevator/random?gemini%3A%2F%2Fraek.se%2F Random Page
+=> gemini://raek.se/orbits/space-elevator/ 🪐 Space Elevator – The quickest way into orbit
+=> gemini://raek.se/orbits/space-elevator/next?gemini%3A%2F%2Fraek.se%2F   ⏩ Next
+=> gemini://raek.se/orbits/space-elevator/prev?gemini%3A%2F%2Fraek.se%2F   ⏪ Previous
+=> gemini://raek.se/orbits/space-elevator/random?gemini%3A%2F%2Fraek.se%2F 🔀 Random
+=> gemini://raek.se/orbits/space-elevator/list                             📄 List
 
-=> gemini://raek.se/orbits/omloppsbanan/ Omloppsbanan - An orbit of capsules by Swedish geminauts
-=> gemini://raek.se/orbits/omloppsbanan/next?gemini%3A%2F%2Fraek.se%2F Next Page
-=> gemini://raek.se/orbits/omloppsbanan/prev?gemini%3A%2F%2Fraek.se%2F Previous Page
-=> gemini://raek.se/orbits/omloppsbanan/random?gemini%3A%2F%2Fraek.se%2F Random Page
+=> gemini://raek.se/orbits/omloppsbanan/ 🪐 Omloppsbanan – An orbit of capsules by Swedish geminauts
+=> gemini://raek.se/orbits/omloppsbanan/next?gemini%3A%2F%2Fraek.se%2F   ⏩ Next
+=> gemini://raek.se/orbits/omloppsbanan/prev?gemini%3A%2F%2Fraek.se%2F   ⏪ Previous
+=> gemini://raek.se/orbits/omloppsbanan/random?gemini%3A%2F%2Fraek.se%2F 🔀 Random
+=> gemini://raek.se/orbits/omloppsbanan/list                             📄 List
 
-=> gemini://tilde.team/~khuxkm/leo/ Low Earth Orbit (LEO) - The first orbit
-=> gemini://tilde.team/~khuxkm/leo/next.cgi?gemini%3A%2F%2Fraek.se%2F Next Page
-=> gemini://tilde.team/~khuxkm/leo/prev.cgi?gemini%3A%2F%2Fraek.se%2F Previous Page
-=> gemini://tilde.team/~khuxkm/leo/random.cgi?gemini%3A%2F%2Fraek.se%2F Random Page
+=> gemini://tilde.team/~khuxkm/leo/ 🪐 Low Earth Orbit (LEO) – The first orbit
+=> gemini://tilde.team/~khuxkm/leo/next.cgi?gemini%3A%2F%2Fraek.se%2F   ⏩ Next
+=> gemini://tilde.team/~khuxkm/leo/prev.cgi?gemini%3A%2F%2Fraek.se%2F   ⏪ Previous
+=> gemini://tilde.team/~khuxkm/leo/random.cgi?gemini%3A%2F%2Fraek.se%2F 🔀 Random
+
+=> gemini://fediring.net/ 🪐 Fediring – personal capsules of members of the fediverse
+=> gemini://fediring.net/next/@raek@tilde.zone     ⏩ Next
+=> gemini://fediring.net/previous/@raek@tilde.zone ⏪ Previous
+=> gemini://fediring.net/random                    🔀 Random
 
 ## Contact
 
