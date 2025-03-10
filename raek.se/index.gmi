@@ -6,6 +6,7 @@ My main nerd hobbies are: amateur radio, rf electronics, python programming, lin
 
 ## Latest Posts
 
+=> gemlog/2025-03-10-two-year-anniversary-of-the-space-elevator-orbit.gmi 2025-03-10 (gemlog) Two Year Anniversary of the 'Space Elevator' Orbit
 => gemlog/2025-02-25-sewi-li-kule-ale.gmi 2025-02-25 (gemlog, toki pona) sewi li kule ale
 => gemini://blog.raek.se/2025/02/21/i-guested-the-european-ham-radio-show/ 2025-02-21 (blog) I Guested The European Ham Radio Show
 => gemlog/2025-02-20-news-for-the-space-elevator-orbit.gmi 2025-02-20 (gemlog) News for the 'Space Elevator' Orbit
@@ -15,7 +16,6 @@ My main nerd hobbies are: amateur radio, rf electronics, python programming, lin
 => gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 (blog) First Contact with an Antenna Made in a Hurry
 => gemini://blog.raek.se/2023/06/26/finishing-the-bitx40-case/ 2023-06-26 (blog) Finishing the BITX40 Case
 => gemini://blog.raek.se/2023/03/09/new-case-for-my-bitx40-radio/ 2023-03-09 (blog) New Case for my BITX40 Radio
-=> gemlog/2023-01-26-family-toki-pona-playdate-bitsy-and-the-clarinet.gmi 2023-01-26 (gemlog) Family, toki pona, Playdate, Bitsy, and the Clarinet
 
 ## My Stuff
 

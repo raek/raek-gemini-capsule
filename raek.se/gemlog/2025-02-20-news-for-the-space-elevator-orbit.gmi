@@ -2,6 +2,8 @@
 
 Some of you might now that I launched an orbit (like webring, but for gemini) in the summer of 2022. For two and a half years it has been running pretty much unchanged.
 
+[Note from 2025-03-10: The original orbit I launched was "Omloppsbanan" targetting Swedish capsules, as well as the "demo" orbit used for testing. Space Elevator was technically the third ordbit and was launched a few months later.]
+
 => /orbits/space-elevator/ Space Elevator
 
 Every now and then I have peeked into the logs to see if anyone has submitted capsule URLs for inclusion that haven't gotten through. And it turns out it happens sometimes.

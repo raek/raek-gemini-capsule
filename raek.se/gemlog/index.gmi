@@ -6,6 +6,7 @@ This is my Gemini-exclusive log.
 
 ## Posts
 
+=> 2025-03-10-two-year-anniversary-of-the-space-elevator-orbit.gmi 2025-03-10 Two Year Anniversary of the 'Space Elevator' Orbit
 => 2025-02-25-sewi-li-kule-ale.gmi 2025-02-25 [toki pona] sewi li kule ale
 => 2025-02-20-news-for-the-space-elevator-orbit.gmi 2025-02-20 News for the 'Space Elevator' Orbit
 => 2024-01-16-ew0k-talked-about-gemini-in-a-swedish-podcast.gmi 2024-01-16 ew0k talked about Gemini in a Swedish podcast
