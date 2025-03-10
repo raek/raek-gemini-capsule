@@ -13,21 +13,21 @@ jan ni li jo e lipu tomo kepeken toki pona:
 
 => //toki.pona.billsmugs.com/ jan Osi
 => //sysrq.in/tok/ jan Anja
-=> //gem.girlmeow.autos/cgi-bin/lipu.pl/ jan Salinsen
 => //gem.chiajlingvoj.ynh.fr/o-kama-sona-e-lili-pi-mi.gmi jan Jano
-=> //gemini.locrian.zone/pona/index.gmi Locrian.zone
-=> //kulu.pw/users/kulupu.keta/toki.pona/ kulupu keta
 => //alchemi.dev/tp/ jan Emi
 => //tilde.cafe/~winter/tok/ jan Winte
 => //thingvellir.net/tok/ jan Ata
+=> //gem.girlmeow.autos/cgi-bin/lipu.pl/ jan Salinsen [lipu pakala]
+=> //gemini.locrian.zone/pona/index.gmi Locrian.zone [lipu pakala]
+=> //kulu.pw/users/kulupu.keta/toki.pona/ kulupu keta [lipu pakala]
 
 lipu ni li kepeken toki pona:
 
-=> //tris.fyi/flightlog/2023-01-03-toki-sewi-tawa-mun.gmi toki sewi tawa mun
 => //gemini.alligatr.co.uk/2020-09-07-meli-lili-pi-len-loje.gmi sina mi la meli lili pi len loje
-=> //beehiveth.smol.pub/tp-lol musi Likalesen: lipu nasin tawa jan musi sin
+=> //tris.fyi/flightlog/2023-01-03-toki-sewi-tawa-mun.gmi toki sewi tawa mun [lipu pakala]
+=> //beehiveth.smol.pub/tp-lol musi Likalesen: lipu nasin tawa jan musi sin [lipu pakala]
 
 lipu ni li toki e toki pona kepeken toki Inli:
 
-=> //toki.transjovian.org/ The Transjovian Council
-=> //beehiveth.smol.pub/kemini lipu sona Kemini
+=> //toki.transjovian.org/ The Transjovian Council [lipu pakala]
+=> //beehiveth.smol.pub/kemini lipu sona Kemini [lipu pakala]
