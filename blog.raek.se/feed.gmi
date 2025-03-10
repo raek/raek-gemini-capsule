@@ -1,6 +1,6 @@
 # raek's Blog
 
-
+=> gemini://blog.raek.se/2025/02/21/i-guested-the-european-ham-radio-show/ 2025-02-21 I Guested The European Ham Radio Show
 => gemini://blog.raek.se/2024/04/08/setting-up-a-portable-efhw-antenna-in-a-park/ 2024-04-08 Setting up a Portable EFHW Antenna in a Park
 => gemini://blog.raek.se/2024/02/05/hf-antenna-in-the-attic/ 2024-02-05 HF Antenna in the Attic
 => gemini://blog.raek.se/2023/08/16/first-contact-with-an-antenna-made-in-a-hurry/ 2023-08-16 First Contact with an Antenna Made in a Hurry

@@ -7,6 +7,10 @@ All pages in this capsule (blog.raek.se) are also served on HTTPS. This file fol
 => feed.gmi List of posts without summaries (feed)
 => https://blog.raek.se/ HTTP version of this blog
 
+## 2025
+=> gemini://blog.raek.se/2025/02/21/i-guested-the-european-ham-radio-show/ 2025-02-21 I Guested The European Ham Radio Show
+The European Ham Radio Show is a weekly YouTube live-show about everything amateur radio. I was very happy (and a bit starstruck) when they invited me into the show to talk about my DIY projects!
+
 ## 2024
 
 => gemini://blog.raek.se/2024/04/08/setting-up-a-portable-efhw-antenna-in-a-park/ 2024-04-08 Setting up a Portable EFHW Antenna in a Park
